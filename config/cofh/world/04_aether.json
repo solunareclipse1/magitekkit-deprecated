@@ -1,0 +1,58 @@
+{
+	"populate": {
+		"ardite": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": [
+					{
+						"name": "tconstruct:ore",
+						"properties": {
+							"type": "ardite"
+						},
+						"weight": 90
+					}
+				],
+				"material": "aether_legacy:holystone",
+				"cluster-size": 4
+			},
+			"cluster-count": 8,
+			"center-height": 48,
+			"spread": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4
+				]
+			}
+		},
+
+		"bquartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "actuallyadditions:block_misc",
+						"properties": {
+							"type": "ore_black_quartz"
+						}
+					}
+				],
+				"material": "aether_legacy:holystone",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 1,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					4
+				]
+			}
+		}
+	}
+}

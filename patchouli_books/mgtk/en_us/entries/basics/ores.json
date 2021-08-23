@@ -1,0 +1,16 @@
+{
+    "name": "Mineable Minerals",
+    "icon": "minecraft:gold_ore",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This realm is known for having a rich abundance of different minerals. The deeper you go, the more variance you will find. If you are lucky, you might also find a huge clump of ores."
+        },
+        {
+            "type": "image",
+            "images": ["contenttweaker:textures/misc/ores.png"],
+            "text": "A glance at what the ores look like in this world, stone being removed for visibility."
+        }
+    ]
+}

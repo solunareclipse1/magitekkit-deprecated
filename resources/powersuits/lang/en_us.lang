@@ -1,0 +1,570 @@
+#Made by users: Andrew2448, MachineMuse, Lehjr
+#Last edited on 10/10/18
+
+itemGroup.powersuits=Modular Powersuits
+
+# Blocks
+tile.powersuits.luxCapacitor.name=Lux Capacitor
+tile.powersuits.tinkerTable.name=Power Armor Tinker Table
+
+# Armor Items
+item.powersuits.powerArmorBoots.name=Power Armor Boots
+item.powersuits.powerArmorLeggings.name=Power Armor Leggings
+item.powersuits.powerArmorChestplate.name=Power Armor Chestplate
+item.powersuits.powerArmorHelmet.name=Power Armor Helmet
+item.powersuits.powerFist.name=Power Fist
+
+# Components
+item.powersuits.powerArmorComponent.componentWiring.name=Wiring
+item.powersuits.powerArmorComponent.componentWiring.desc=A special type of wiring with high voltaic capacity and precision, necessary for the sensitive electronics in power armor.
+item.powersuits.powerArmorComponent.componentSolenoid.name=Solenoid
+item.powersuits.powerArmorComponent.componentSolenoid.desc=Wires wound around a ferromagnetic core produces a powerful electromagnet.
+item.powersuits.powerArmorComponent.componentServo.name=Servo Motor
+item.powersuits.powerArmorComponent.componentServo.desc=A special type of motor which uses a pulse-modulated signal to enact very precise movements.
+item.powersuits.powerArmorComponent.componentGliderWing.name=Sturdy Wing
+item.powersuits.powerArmorComponent.componentGliderWing.desc=A lightweight, durable, and aerodynamic wing.
+item.powersuits.powerArmorComponent.componentIonThruster.name=Ion Thruster
+item.powersuits.powerArmorComponent.componentIonThruster.desc=Essentially a miniature particle accelerator. Accelerates ions to near-light speed to produce thrust.
+item.powersuits.powerArmorComponent.componentLVCapacitor.name=Universal Capacitor
+item.powersuits.powerArmorComponent.componentLVCapacitor.desc=A capacitor that can store EU, but also has the ability to convert RF directly into EU.
+item.powersuits.powerArmorComponent.componentMVCapacitor.name=Improved Universal Capacitor
+item.powersuits.powerArmorComponent.componentMVCapacitor.desc=A more advanced capacitor which can store more energy at higher voltages, no matter what kind of energy it is.
+item.powersuits.powerArmorComponent.componentHVCapacitor.name=Dense Universal Capacitor
+item.powersuits.powerArmorComponent.componentHVCapacitor.desc=A synthetic crystal device which can store and release massive amounts of energy, both RF and EU.
+item.powersuits.powerArmorComponent.componentEVCapacitor.name=Supercapacitor
+item.powersuits.powerArmorComponent.componentEVCapacitor.desc=The most advanced multi-type energy storage device ever created. Probably won't explode in your face. Able to store both forms of energy, and in massive quantities!
+item.powersuits.powerArmorComponent.componentParachute.name=Perfectly Woven Parachute
+item.powersuits.powerArmorComponent.componentParachute.desc=A durable and reusable parachute which can be deployed and recovered in midair.
+item.powersuits.powerArmorComponent.componentPlatingIron.name=Iridium Alloy Plating
+item.powersuits.powerArmorComponent.componentPlatingIron.desc=Densely packed armor plating created from stellar alloy and iridium.
+item.powersuits.powerArmorComponent.componentPlatingDiamond.name=Stellar Titadium Plating
+item.powersuits.powerArmorComponent.componentPlatingDiamond.desc=Considerably lighter and more durable, but also significantly more expensive, armor plating, made from iridium, stellar alloy, and titanium.
+item.powersuits.powerArmorComponent.componentFieldEmitter.name=Force Field Emitter
+item.powersuits.powerArmorComponent.componentFieldEmitter.desc=An extremely advanced device, able to provide maximum protection with effectively no extra weight, at the cost of energy.
+item.powersuits.powerArmorComponent.componentLaserEmitter.name=Hologram Emitter
+item.powersuits.powerArmorComponent.componentLaserEmitter.desc=Advanced 3D projector that allows one to modify how light interacts with an object.
+item.powersuits.powerArmorComponent.componentCarbonMyofiber.name=Graphenium Myofiber
+item.powersuits.powerArmorComponent.componentCarbonMyofiber.desc=Fibers of a specific form of carbon are incredibly durable and somewhat rubber-like, making it suitable for use in armor joints.
+item.powersuits.powerArmorComponent.componentControlCircuit.name=Q-Circuit
+item.powersuits.powerArmorComponent.componentControlCircuit.desc=A complicated piece of quantum electronics, able to calculate just about anything at near-lightspeed.
+item.powersuits.powerArmorComponent.componentMyofiberGel.name=Myofiber Gel
+item.powersuits.powerArmorComponent.componentMyofiberGel.desc=A thick, conductive paste, perfect for fitting myofibers together.
+item.powersuits.powerArmorComponent.componentArtificialMuscle.name=Artificial Muscle
+item.powersuits.powerArmorComponent.componentArtificialMuscle.desc=An electrical, artificial muscle, able to move with the same precision as its flesh counterpart, but with orders of magnitude more strength.
+item.powersuits.powerArmorComponent.componentSolarPanel.name=Super Solar Panel
+item.powersuits.powerArmorComponent.componentSolarPanel.desc=An advanced photovoltaic cell, able to convert roughly 80% of all light that hits it into energy.
+item.powersuits.powerArmorComponent.componentMagnet.name=Supermagnet
+item.powersuits.powerArmorComponent.componentMagnet.desc=A high strength magnet. Not much else to it.
+item.powersuits.powerArmorComponent.componentComputerChip.name=Computer Chip
+item.powersuits.powerArmorComponent.componentComputerChip.desc=A highly upgraded control circuit that contains a CPU which is capable of more advanced calculations.
+item.powersuits.powerArmorComponent.componentRubberHose.name=Insulated Rubber Hose
+item.powersuits.powerArmorComponent.componentRubberHose.desc=A heavily insulated rubber tube capable of withstanding extreme heat or cold.
+
+# NBTTags used as labels
+powersuits.tradeoff.slotPoints=Slot Points;
+powersuits.tradeoff.armorPoints=Armor Points
+powersuits.tradeoff.armorPhysical=Armor (Physical)
+powersuits.tradeoff.armorEnergy=Armor (Energy)
+powersuits.tradeoff.armorEnergyPerDamage=Energy Per Damage
+powersuits.tradeoff.fieldStrength=Field Strength
+powersuits.tradeoff.heatGeneration=Heat Generation
+powersuits.tradeoff.energyPerBlock=Energy Per Block Per Second
+powersuits.tradeoff.movementResistance=Movement Resistance
+powersuits.tradeoff.energyGenerated=Energy Generated
+powersuits.tradeoff.daytimeHeatGen=Daytime Heat Generation
+powersuits.tradeoff.nightTimeHeatGen=Nighttime Heat Generation
+powersuits.tradeoff.daytimeEnergyGen=Daytime Energy Generation
+powersuits.tradeoff.nightTimeEnergyGen=Nighttime Energy Generation
+powersuits.tradeoff.thermalEnergyGen=Energy Generation
+powersuits.tradeoff.apiaristArmorEnergyCon=Apiarist Armor Energy Consumption
+powersuits.tradeoff.eatingEnergyCon=Eating Energy Consumption
+powersuits.tradeoff.autoFeederEfficiency=Auto-Feeder Efficiency
+powersuits.tradeoff.basicCoolingPower=Basic Cooling Power
+powersuits.tradeoff.coolingBonus=Cooling Bonus
+powersuits.tradeoff.coolingSystemEnergyCon=Cooling System Energy Consumption
+powersuits.tradeoff.repulsorEnergyCon=Repulsor Energy Consumption
+powersuits.tradeoff.advCoolSysEnergyCon=Advanced Cooling System Energy Consumption
+powersuits.tradeoff.joltEnergy=Jolt Energy
+powersuits.tradeoff.blinkDriveEnergyCon=Blink Drive Energy Consumption
+powersuits.tradeoff.blinkDriveRange=Blink Drive Range
+powersuits.tradeoff.yLookRatio=Y-look ratio
+powersuits.tradeoff.jetBootsEnergyCon=Jetboots Energy Consumption
+powersuits.tradeoff.jetbootsThrust=Jetboots Thrust
+powersuits.tradeoff.jetpackEnergyCon=Jetpack Energy Consumption
+powersuits.tradeoff.jetpackThrust=Jetpack Thrust
+powersuits.tradeoff.jumpEnergyCon=Jump Energy Consumption
+powersuits.tradeoff.jumpBoost=Jump Boost
+powersuits.tradeoff.jumpExhaustComp=Jump Exhaustion Compensation
+powersuits.tradeoff.distanceRed=Distance Reduction
+powersuits.tradeoff.impactEnergyCon=Impact Energy Consumption
+powersuits.tradeoff.sprintEnergyCon=Sprint Energy Consumption
+powersuits.tradeoff.sprintSpeedMult=Sprint Speed Multiplier
+powersuits.tradeoff.sprintExComp=Sprint Exhaustion Compensation
+powersuits.tradeoff.walkingEnergyCon=Walking Energy Consumption
+powersuits.tradeoff.walkingSpeedMult=Walking Speed Multiplier
+powersuits.tradeoff.underwaterMovBoost=Underwater Movement Boost
+powersuits.tradeoff.swimBoostEnergyCon=Swim Boost Energy Consumption
+powersuits.tradeoff.energyCon=Energy Consumption
+powersuits.tradeoff.magnetRadius=Magnet Radius
+powersuits.tradeoff.fieldOfView=Field of View
+powersuits.tradeoff.fOVMult=FOV multiplier
+powersuits.tradeoff.underWaterEnergyCon=Underwater Energy Consumption
+powersuits.tradeoff.underWaterHarvSpeed=Underwater Harvest Speed
+powersuits.tradeoff.axeEnergyCon=Axe Energy Consumption
+powersuits.tradeoff.axeHarvSpd=Axe Harvest Speed
+powersuits.tradeoff.chiselHarvSpd=Chisel Harvest Speed
+powersuits.tradeoff.chiselEnergyCon=Chisel Energy Consumption
+powersuits.tradeoff.ignitEnergyCon=Ignition Energy Consumption
+powersuits.tradeoff.grafterEnergyCon=Grafter Energy Consumption
+powersuits.tradeoff.grafterHeatGen=Grafter Heat Generation
+powersuits.tradeoff.hoeEnergyCon=Hoe Energy Consumption
+powersuits.tradeoff.hoeSearchRad=Hoe Search Radius
+powersuits.tradeoff.luxCapEnergyCon=Lux Capacitor Energy Consumption
+powersuits.tradeoff.luxCapRed=Lux Capacitor Red Hue
+powersuits.tradeoff.luxCapGreen=Lux Capacitor Green Hue
+powersuits.tradeoff.luxCapBlue=Lux Capacitor Blue Hue
+powersuits.tradeoff.pickHarvSpd=Pickaxe Harvest Speed
+powersuits.tradeoff.pickaxeEnergyCon=Pickaxe Energy Consumption
+powersuits.tradeoff.scoopHarSpd=Scoop Harvest Speed
+powersuits.tradeoff.scoopEnergyCon=Scoop Energy Consumption
+powersuits.tradeoff.shearEnergyCon=Shearing Energy Consumption
+powersuits.tradeoff.shearHarvSpd=Shearing Harvest Speed
+powersuits.tradeoff.shovelHarvSpd=Shovel Harvest Speed
+powersuits.tradeoff.shovelEnergyCon=Shovel Energy Consumption
+powersuits.tradeoff.spinBladeEnergyCon=Spinning Blade Energy Consumption
+powersuits.tradeoff.spinBladeDam=Spinning Blade Damage
+powersuits.tradeoff.heatEmission=Heat Emission
+powersuits.tradeoff.punchEnergyCon=Punch Energy Consumption
+powersuits.tradeoff.meleeDamage=Melee Damage
+powersuits.tradeoff.meleeKnockback=Melee Knockback
+powersuits.tradeoff.plasmaEnergyPerTick=Plasma Energy Per Tick
+powersuits.tradeoff.plasmaDamage=Plasma Damage At Full Charge
+powersuits.tradeoff.plasmaExplosiveness=Plasma Explosiveness
+powersuits.tradeoff.railgunTotalImpulse=Railgun Total Impulse
+powersuits.tradeoff.railgunEnergyCost=Railgun Energy Cost
+powersuits.tradeoff.railgunHeatEm=Railgun Heat Emission
+#powersuits.tradeoff.cooldown=Cooldown
+powersuits.tradeoff.power=Power
+powersuits.tradeoff.voltage=Voltage
+powersuits.tradeoff.impact=Impact
+powersuits.tradeoff.carryThrough=Carry-through
+powersuits.tradeoff.amperage=Amperage
+powersuits.tradeoff.creeper=Creeper
+powersuits.tradeoff.advancedCoolingPower=Advanced Cooling Power
+powersuits.tradeoff.overclock=Overclock
+#powersuits.tradeoff.fieldTelEnergyCon="Field Teleporter Energy Consumption
+powersuits.tradeoff.thrust=Thrust
+powersuits.tradeoff.range=Range
+powersuits.tradeoff.radius=Radius
+powersuits.tradeoff.efficiency=Efficiency
+powersuits.tradeoff.red=Red
+powersuits.tradeoff.green=Green
+powersuits.tradeoff.blue=Blue
+powersuits.tradeoff.alpha=Alpha
+powersuits.tradeoff.sprintAssist=Sprint Assist
+powersuits.tradeoff.compensation=Compensation
+powersuits.tradeoff.walkingAssist=Walking Assist
+powersuits.tradeoff.vertically=Verticality
+powersuits.tradeoff.maxEnergy=Maximum Energy
+powersuits.tradeoff.maxHeat=Maximum Heat
+powersuits.tradeoff.aoeEnergyCon=AoE Energy Consumption
+powersuits.tradeoff.aoeMiningDiameter=AoE Mining Diameter
+powersuits.tradeoff.silkTouchEnCon=Silk Touch Energy Consumption
+powersuits.tradeoff.diameter=Diameter
+powersuits.tradeoff.enchLevel=Enchantment Level
+powersuits.tradeoff.fortuneEnCon=Fortune Energy Consumption
+powersuits.tradeoff.fortuneLevel=Fortune Level
+
+
+# Armor
+module.powersuits.leatherPlating.name=Fibrous Plating
+module.powersuits.leatherPlating.desc=Plating made from ballistic fibers, giving good protection.
+module.powersuits.ironPlating.name=Dense I-Alloy Plating
+module.powersuits.ironPlating.desc=Dense combination of iridium and stellar alloy gives your suit significantly better armor than simple ballistic fiber.
+module.powersuits.diamondPlating.name=Stellar Titadium Plating
+module.powersuits.diamondPlating.desc=Harder, better, lighter, and stronger plating is a direct upgrade from I-Alloy, but is more expensive.
+module.powersuits.energyShield.name=Energy Shield
+module.powersuits.energyShield.desc=Virtually weightless protection, even stronger than Stellar Titadium, but at a significant energy cost.
+
+# Cosmetic
+module.powersuits.transparentArmor.name=Armor Deprojectecting Device
+module.powersuits.transparentArmor.desc=Makes this armor piece completely invisible, so you can show off your skin without losing armor.
+
+# Energy
+module.powersuits.basicBattery.name=RF-EU Battery
+module.powersuits.basicBattery.desc=Integrate a battery to allow the item to store energy, automatically converting between the 2 different types of energy.
+module.powersuits.advancedBattery.name=Dense RF-EU Battery
+module.powersuits.advancedBattery.desc=Energy storage ten times greater than its predecessor. Significantly more expensive.
+module.powersuits.eliteBattery.name=Advanced RF-EU Battery
+module.powersuits.eliteBattery.desc=Hyperdense capacitors allow another tenfold increase of energy storage.
+module.powersuits.ultimateBattery.name=Perfected RF-EU Battery
+module.powersuits.ultimateBattery.desc=Stores, converts, and discharges RF and EU energy types in ridiculous amounts, if you can afford it.
+module.powersuits.solarGenerator.name=Solar Generator
+module.powersuits.solarGenerator.desc=Absorbs sunlight and UV radiation to generate power, with a fair amount of heat as a byproduct.
+module.powersuits.advSolarGenerator.name=High Efficiency Solar Generator
+module.powersuits.advSolarGenerator.desc=Triple the energy, ten times the heat. Can you handle it?
+module.powersuits.coalGenerator.name=Coal Generator
+module.powersuits.coalGenerator.desc=Generate power with solid fuels
+module.powersuits.kineticGenerator.name=Kinetic Anti-Servo Generator
+module.powersuits.kineticGenerator.desc=Force yourself to generate energy using your own muscles, at the cost of some speed.
+module.powersuits.thermalGenerator.name=Thermal Generator
+module.powersuits.thermalGenerator.desc=Put that excess heat to good use and generate some energy off of it.
+
+# Environmental
+module.powersuits.airtightSeal.name=Airtight Seal
+module.powersuits.airtightSeal.desc=Breathe in space! Oxygen not included.
+module.powersuits.apiaristArmor.name=Apiarist Armor
+module.powersuits.apiaristArmor.desc=Keep yourself safe from those pesky bees with a cage made from string.
+module.powersuits.hazmat.name=HazEnV Radiation Shielding
+module.powersuits.hazmat.desc=Mostly protects you from the harmful effects of radiation. Mostly. Patent pending! *Must be on every piece for 100% protection, does NOT remove the debuff*
+module.powersuits.autoFeeder.name=Automatic Face-Stuffer
+module.powersuits.autoFeeder.desc=Whenever you're hungry, this module will grab the bottom-left-most food item from your inventory and feed it to you, storing the rest for later.
+module.powersuits.basicCoolingSystem.name=Disabled
+module.powersuits.basicCoolingSystem.desc=Disabled due to a bug, please use the other cooling system.
+module.powersuits.advancedCoolingSystem.name=Integrated Cooling System
+module.powersuits.advancedCoolingSystem.desc=Cools down heat-producing modules at a high energy cost. Add a fluid other than water for additional cooling based on the temperature of the fluid.
+module.powersuits.mobRepulsor.name=Mob Repulsor
+module.powersuits.mobRepulsor.desc=Pushes mobs away from you while active. High, constant energy cost.
+module.powersuits.waterElectrolyzer.name=Water Electrolyzer
+module.powersuits.waterElectrolyzer.desc=When you run out of air, this module will jolt the water around you, electrolyzing a small bubble to breathe from.
+
+# Movement
+module.powersuits.blinkDrive.name=Blink Drive
+module.powersuits.blinkDrive.desc=Get from point A to point C via point B, where point B is a fold in space & time. Must be selected to use.
+module.powersuits.climbAssist.name=Uphill Step Assist
+module.powersuits.climbAssist.desc=A pair of dedicated servos allow you to effortlessly step up 1m-high ledges.
+module.powersuits.flightControl.name=Flight Control
+module.powersuits.flightControl.desc=An integrated control circuit to help you fly better. Configure the descending keybind in controls (default: Z).
+module.powersuits.glider.name=Glider
+module.powersuits.glider.desc=Tack on some wings to turn downward into forward momentum. Press sneak+forward while falling to activate.
+module.powersuits.jetBoots.name=Jet Boots
+module.powersuits.jetBoots.desc=Jet boots are not as strong as a jetpack, but they should at least be strong enough to counteract gravity.
+module.powersuits.jetpack.name=Jetpack
+module.powersuits.jetpack.desc=A jetpack should allow you to jump indefinitely, or at least until you run out of power.
+module.powersuits.jumpAssist.name=Jump Assist
+module.powersuits.jumpAssist.desc=Another set of servo motors to help you jump higher.
+module.powersuits.parachute.name=Parachute
+module.powersuits.parachute.desc=Add a parachute to slow your descent. Activate by pressing sneak (defaults to Shift) in midair.
+module.powersuits.shockAbsorber.name=Shock Absorber
+module.powersuits.shockAbsorber.desc=With some servos, springs, and padding, you should be able to negate a portion of fall damage.
+module.powersuits.sprintAssist.name=Sprint Assist
+module.powersuits.sprintAssist.desc=A set of servo motors to help you sprint and walk faster. Unfortunately, due to some suit internals being replaced, this module will reduce the protection that the leggings will give you.
+module.powersuits.swimAssist.name=Swim Boost
+module.powersuits.swimAssist.desc=Advances in waterproofing technology have allowed you to jerry rig an ion thruster for underwater use, though it only works with horizontal movement.
+
+# Special
+module.powersuits.clock.name=Timekeeping Circuit
+module.powersuits.clock.desc=An inbuilt nuclear clock, allowing you to see the time, no matter where you are.
+module.powersuits.compass.name=Disabled
+module.powersuits.compass.desc=Disabled due to a bug.
+module.powersuits.invisibility.name=Active Camouflage
+module.powersuits.invisibility.desc=Turn you and your chestplate completely invisible. NOTE: Other worn items may not become invisible.
+module.powersuits.magnet.name=Universal Magnet
+module.powersuits.magnet.desc=A magnet powerful enough to attract almost any item, yet also safe around computers. High, constant energy cost.
+
+# Vision
+module.powersuits.binoculars.name=Distant Object Image Enhancement Algorithm
+module.powersuits.binoculars.desc=Finely crafted optical lenses, and a complicated algorithm, allow for seeing things in the far distance with near-perfect detail.
+module.powersuits.nightVision.name=Intelligent Night Vision
+module.powersuits.nightVision.desc=A pair of augmented vision goggles to help you see at night and underwater. Firmware automatically dims image to reasonable levels if enough light is detected.
+module.powersuits.aurameter.name=Integrated Aurameter
+module.powersuits.aurameter.desc=Hook up some Thaumic goggles to have them embedded in your helmet. Unfortunately, the vis discount was lost in the process.
+
+# Mining Enhancements
+module.powersuits.aoePickUpgrade.name=Area Mining Module
+module.powersuits.aoePickUpgrade.desc=An updrade that will allow the pickaxe module to mine up to a 5x5 area of blocks. Must be selected to use.
+module.powersuits.madModule.name=Disabled
+module.powersuits.madModule.desc=Disabled due to a bug.
+module.powersuits.fortuneModule.name=Miniature Ore Processing
+module.powersuits.fortuneModule.desc=Microscopic machinery automatically increase ore output from certain ores. The end result is similar to the fortune enchantment.
+module.powersuits.silk_touch.name=Non-Destructive Block Collector
+module.powersuits.silk_touch.desc=Nanotechnology grants the ablity to dig up fragile blocks without harming them.
+
+# Tools
+module.powersuits.appengECWirelessFluid.name=ExtraCells Wireless Fluid Terminal
+module.powersuits.appengECWirelessFluid.desc=An Applied Energistics ExtraCells wireless fluid terminal integrated into your power tool.
+module.powersuits.appengWireless.name=AppEng Wireless Terminal
+module.powersuits.appengWireless.desc=An Applied Energistics wireless terminal integrated into your power tool.
+module.powersuits.aquaAffinity.name=Anti-Aquatic Servos
+module.powersuits.aquaAffinity.desc=Reduce the speed penalty for using your tool underwater. Must be selected to use.
+module.powersuits.axe.name=Bladed Edge
+module.powersuits.axe.desc=Allows the tool to function as an axe.
+module.powersuits.chisel.name=Chisel
+module.powersuits.chisel.desc=This won't let you chisel blocks, but it will at least let you harvest them.
+module.powersuits.diamondPickUpgrade.name=Diamond Fingertips
+module.powersuits.diamondPickUpgrade.desc=Upgrades your tool from iron level mining to diamond level mining. *REQUIRES PICKAXE MODULE TO WORK*
+module.powersuits.dimRiftGen.name=Dimensional Tear Generator
+module.powersuits.dimRiftGen.desc=Generate a tear in the space-time continuum that will teleport the player to its relative coordinates in the nether or overworld. Must be selected to use.
+module.powersuits.fieldTinkerer.name=Field Tinker Module
+module.powersuits.fieldTinkerer.desc=Allows modification of already installed modules on the fly. Does NOT allow installation of new modules, nor does it allow removal of currently installed ones. Must be selected to use.
+module.powersuits.flintAndSteel.name=Ignition Matrix
+module.powersuits.flintAndSteel.desc=An integrated lighter allows creating fire using energy. Must be selected to use.
+module.powersuits.grafter.name=Grafting Upgrade
+module.powersuits.grafter.desc=A Forestry grafter integrated into your power tool.
+module.powersuits.hoe.name=Rototiller
+module.powersuits.hoe.desc=An automated tilling addon to make it easy to till large swaths of land at once. Must be selected to use.
+module.powersuits.leafBlower.name=Avatric Air Mover
+module.powersuits.leafBlower.desc=Create a torrent of air to knock plants out of the ground and leaves off of trees. Must be selected to use.
+module.powersuits.luxCapacitor.name=Lux Capacitor Materialization Device
+module.powersuits.luxCapacitor.desc=Launch a virtually infinite number of attractive light sources that stick to almost any surface, at the cost of power. Must be selected to use.
+module.powersuits.mffsFieldTeleporter.name=MFFS Field Teleporter
+module.powersuits.mffsFieldTeleporter.desc=A tool which allows you to teleport through MFFS forcefields that you own if you have enough energy.
+module.powersuits.madmodule.powersuits.name=Disabled
+module.powersuits.madmodule.powersuits.desc=Disabled due to a bug.
+module.powersuits.ocTerminal.name=Fixme
+module.powersuits.ocTerminal.desc=Fixme
+module.powersuits.portableCraftingTable.name=In-Place Assembler
+module.powersuits.portableCraftingTable.desc=A 3x3 crafting grid, on the go. Must be selected to use.
+module.powersuits.omniProbe.name=Prototype OmniProbe
+module.powersuits.omniProbe.desc=A prototype multi-use probe integrated into your power tool. Must be selected to use.
+module.powersuits.omniwrench.name=Prototype OmniWrench
+module.powersuits.omniwrench.desc=Lets you use your power tool as a general purpose wrench. It is still a prototype, it may not function properly in some cases. Must be selected to use.
+module.powersuits.oreScanner.name=Ore Scanner
+module.powersuits.oreScanner.desc=A way to see how valuable the land around you is.
+module.powersuits.cmPSD.name=Personal Shrinking Device
+module.powersuits.cmPSD.desc=A Compact Machines Personal Shrinking Device integrated into your power tool.
+module.powersuits.pickaxe.name=Mechanical-Finger-Converging Mining Augment
+module.powersuits.pickaxe.desc=Forces the tools fingers to touch together at the tips, letting it function as a pickaxe.
+module.powersuits.refinedStorageWirelessGrid.name=Refined Storage Wireless Access Point
+module.powersuits.refinedStorageWirelessGrid.desc=A module to connect to a Refined Storage system. Must be selected to use.
+module.powersuits.scoop.name=Bee Collection Tool
+module.powersuits.scoop.desc=A Forestry scoop integrated into your power tool.
+module.powersuits.shears.name=Shears
+module.powersuits.shears.desc=Allows using the tool as a pair of shears. Must be selected to use.
+module.powersuits.shovel.name=Soft-Material Excavation Addon
+module.powersuits.shovel.desc=Allows the tool to function like a shovel.
+module.powersuits.treetap.name=Integrated Tree Fluid Extractor
+module.powersuits.treetap.desc=An IC2 treetap integrated in your power tool. Must be selected to use.
+
+# Weapons
+module.powersuits.bladeLauncher.name=Sharp Attack Weapon Launcher
+module.powersuits.bladeLauncher.desc=Materializes, and then launches, a spinning S.A.W. Must be selected to use.
+module.powersuits.lightningSummoner.name=Gantronic Elektroshok Discharger™
+module.powersuits.lightningSummoner.desc=Smite your foes with the new Elektroshok Discharger™, from Gantronic! Note: Gantronic is not responsible for injury, damage, or loss of life due to use of the Elektroshok Discharger™. Gantronic is legally required to inform you that the Elektroshok Discharger meets no energy regulation standards and is not suitable for use by person(s) under the age of 18. Must be selected to use.
+module.powersuits.meleeAssist.name=Fisticuff Combat Enhancer
+module.powersuits.meleeAssist.desc=Makes your punches hit harder.
+module.powersuits.plasmaCannon.name=Plasma Cannon
+module.powersuits.plasmaCannon.desc=Use electrical arcs in a containment field to superheat air to a plasma and launch it at enemies. Must be selected to use.
+module.powersuits.railgun.name=Particle Acceleration Railgun
+module.powersuits.railgun.desc=An assembly which accelerates a projectile to near-lightspeed using supermagnetic force. Heavy recoil and heat generation. Must be selected to use.
+
+# GUI
+gui.powersuits.noModulesFound.line1=No Power Armor found
+gui.powersuits.noModulesFound.line2=in inventory. Make some!
+gui.powersuits.red=Red
+gui.powersuits.green=Green
+gui.powersuits.blue=Blue
+gui.powersuits.install=Install
+gui.powersuits.salvage=Salvage
+gui.powersuits.newKeybind=New
+gui.powersuits.trashKeybind=Trash
+gui.powersuits.pressKey=Press Key
+gui.powersuits.keybindInstructions1=Use 'new' to bind new keys.
+gui.powersuits.keybindInstructions2=Drag and drop modules to bind them to keys.
+gui.powersuits.keybindInstructions3=Drop keys on 'trash' to unbind them.
+gui.powersuits.keybindInstructions4=Right-click keybinds to add them to the HUD.
+gui.powersuits.keybindTaken=Key already in use!
+gui.powersuits.tab.tinker=Tinker
+gui.powersuits.tab.keybinds=Keybinds
+gui.powersuits.tab.visual=Visual
+gui.powersuits.equippedTotals=Equipped Totals
+gui.powersuits.energyStorage=Energy Storage
+gui.powersuits.armor=Armor
+gui.powersuits.slotpoints=Slot Points
+gui.powersuits.load=Load
+gui.powersuits.save=Save
+gui.powersuits.reset=Reset
+gui.powersuits.cancel=Cancel
+gui.powersuits.colourPrefix=Color:
+gui.powersuits.saveAs=Save as:
+gui.powersuits.new=New
+gui.powersuits.savesuccessful=Save Successful
+
+
+# Toooltips
+tooltip.powersuits.pressShift=Press SHIFT for more information.
+tooltip.powersuits.componentTooltip=For use in Tinker Table.
+tooltip.powersuits.changeModes=Change modes: Press and hold the number of the hotbar slot the PowerFist is in.
+tooltip.powersuits.energy=Energy:
+tooltip.powersuits.noModules=No installed modules! This item is useless until you add some modules at a Tinker Table.
+tooltip.powersuits.installedModules=Installed Modules:
+tooltip.powersuits.mode=Mode:
+
+# Default Model Helm
+model.mps_helm.modelName=MPS Helm
+model.mps_helm.helm_main.partName=Helmet
+model.mps_helm.visor.partName=Visor
+model.mps_helm.helm_tubes.partName=Tubes
+model.mps_helm.helm_tube_entry2.partName=Right Tube Entry
+model.mps_helm.helm_tube_entry1.partName=Left Tube Entry
+
+# Default Model Chestplate
+model.mps_chest.modelName=MPS Chestplate
+model.mps_chest.backpack.partName=Backpack
+model.mps_chest.polySurface36.partName=Accessory
+model.mps_chest.belt.partName=Belt
+model.mps_chest.chest_padding.partName=Chest Padding
+model.mps_chest.crystal_belt.partName=Belt Crystal
+model.mps_chest.chest_main.partName=Chest Plating
+
+# Default Model Jetpack
+model.jetpack.modelName=MPS Jetpack
+model.jetpack.default.partName=Main
+model.jetpack.jetpack5.partName=Secondary
+model.jetpack.jetpack_glow.partName=Lights
+
+# Default Model Arms
+model.mps_arms.modelName=MPS Arms
+model.mps_arms.crystal_shoulder_2.partName=Right Shoulder Crystal
+model.mps_arms.arms3.partName=Right Arm
+model.mps_arms.crystal_shoulder_1.partName=Left Shoulder Crystal
+model.mps_arms.arms2.partName=Left Arm
+
+# Default Model Pantaloons
+model.mps_pantaloons.modelName=MPS Pantaloons
+model.mps_pantaloons.leg2.partName=Left Leg
+model.mps_pantaloons.leg1.partName=Right Leg
+
+# Default Model Boots
+model.mps_boots.modelName=MPS Boots
+model.mps_boots.boots1.partName=Right Boot
+model.mps_boots.boots2.partName=Left Boot
+
+# Armor Model 2
+model.armor2.modelName=Armor 2
+model.armor2.helmetglow1.partName=Helmet Tubes and Visor
+model.armor2.helmetmain.partName=Helmet
+model.armor2.chestgray.partName=Chest Base
+model.armor2.chestmain.partName=Front Chest Protection
+model.armor2.chestback1.partName=Back Chest Protection
+model.armor2.chestglowfront.partName=Frontal Power Crystal
+model.armor2.chestglowback.partName=Spinal Power Crystals
+model.armor2.armglow1.partName=Shoulder Light
+model.armor2.armmain1.partName=Arm and Shoulder Protection
+model.armor2.armgray1.partName=Arm Base
+model.armor2.armglow.partName=Shoulder Light
+model.armor2.armmain.partName=Arm and Shoulder Protection
+model.armor2.armgray.partName=Arm Base
+model.armor2.leggray.partName=Left Leg Base
+model.armor2.legbit.partName=Left Leg Protection
+model.armor2.legglow.partName=Left Leg Light
+model.armor2.leggray1.partName=Right Leg Base
+model.armor2.legbit1.partName=Right Leg Protection
+model.armor2.legglow1.partName=Right Leg Light
+model.armor2.bootmain1.partName=Right Boot
+model.armor2.bootglow1.partName=Right Boot Glow
+model.armor2.bootmain.partName=Left Boot
+model.armor2.bootglow.partName=Left Boot Glow
+
+
+textureSpec.default_armorskin.specName=Default Armor Skin
+textureSpec.head.partName=Head
+textureSpec.chest.partName=Chest
+textureSpec.legs.partName=Legs
+textureSpec.feet.partName=Feet
+
+textureSpec.citizenjoe_armorskin.specName=Citizen Joe Armor Skin
+
+
+# PowerFist main model
+model.powerfist.modelName=Power Fist Right Hand
+model.powerfist.mainarm.partName=Main Arm
+model.powerfist.armorright.partName=Armor Right
+model.powerfist.armorleft.partName=Armor Left
+model.powerfist.wristtopright.partName=Wrist Top Right
+model.powerfist.wristtopleft.partName=Wrist Top Left
+model.powerfist.wristbottomright.partName=Wrist Bottom Right
+model.powerfist.wristbottomleft.partName=Wrist Bottom Left
+model.powerfist.fingerguard.partName=Finger Guard
+model.powerfist.crystalholder.partName=Crystal Holder
+model.powerfist.crystal.partName=Crystal
+model.powerfist.supportright1.partName=Support Right 1
+model.powerfist.supportright2.partName=Support Right 2
+model.powerfist.supportright3.partName=Support Right 3
+model.powerfist.supportright4.partName=Support Right 4
+model.powerfist.supportright5.partName=Support Right 5
+model.powerfist.supportbaseright.partName=Support Base Right
+model.powerfist.palm.partName=Palm
+model.powerfist.supportbaseleft.partName=Support Base Left
+model.powerfist.supportleftfront.partName=Support Left Front
+model.powerfist.supportrightfront.partName=Support Right Front
+model.powerfist.supportleft1.partName=Support Left 1
+model.powerfist.supportleft2.partName=Support Left 2
+model.powerfist.supportleft3.partName=Support Left 3
+model.powerfist.supportleft4.partName=Support Left 4
+model.powerfist.supportleft5.partName=Support Left 5
+
+model.powerfist_fingers_normal.modelName=Power Fist Fingers Normal Pose
+model.powerfist_fingers_normal.index1.partName=Index 1
+model.powerfist_fingers_normal.index2.partName= Index 2
+model.powerfist_fingers_normal.middlefinger1.partName=Middle Finger 1
+model.powerfist_fingers_normal.middlefinger2.partName=Middle Finger 2
+model.powerfist_fingers_normal.ringfinger1.partName=Ring Finger 1
+model.powerfist_fingers_normal.ringfinger2.partName=Ring Finger 2
+model.powerfist_fingers_normal.pinky1.partName=Pinky 1
+model.powerfist_fingers_normal.pinky2.partName=Pinky 2
+model.powerfist_fingers_normal.thumb1.partName=Thumb 1
+model.powerfist_fingers_normal.thumb2.partName=Thumb 2
+
+model.powerfist_fingers_firing.modelName=Power Fist Fingers Firing Pose
+model.powerfist_fingers_firing.index1.partName=Index 1
+model.powerfist_fingers_firing.index2.partName= Index 2
+model.powerfist_fingers_firing.middlefinger1.partName=Middle Finger 1
+model.powerfist_fingers_firing.middlefinger2.partName=Middle Finger 2
+model.powerfist_fingers_firing.ringfinger1.partName=Ring Finger 1
+model.powerfist_fingers_firing.ringfinger2.partName=Ring Finger 2
+model.powerfist_fingers_firing.pinky1.partName=Pinky 1
+model.powerfist_fingers_firing.pinky2.partName=Pinky 2
+model.powerfist_fingers_firing.thumb1.partName=Thumb 1
+model.powerfist_fingers_firing.thumb2.partName=Thumb 2
+
+model.powerfist_left.modelName=Power Fist Left Hand
+model.powerfist_left.mainarm.partName=Main Arm
+model.powerfist_left.armorright.partName=Armor Right
+model.powerfist_left.armorleft.partName=Armor Left
+model.powerfist_left.wristtopright.partName=Wrist Top Right
+model.powerfist_left.wristtopleft.partName=Wrist Top Left
+model.powerfist_left.wristbottomright.partName=Wrist Bottom Right
+model.powerfist_left.wristbottomleft.partName=Wrist Bottom Left
+model.powerfist_left.fingerguard.partName=Finger Guard
+model.powerfist_left.crystalholder.partName=Crystal Holder
+model.powerfist_left.crystal.partName=Crystal
+model.powerfist_left.supportright1.partName=Support Right 1
+model.powerfist_left.supportright2.partName=Support Right 2
+model.powerfist_left.supportright3.partName=Support Right 3
+model.powerfist_left.supportright4.partName=Support Right 4
+model.powerfist_left.supportright5.partName=Support Right 5
+model.powerfist_left.supportbaseright.partName=Support Base Right
+model.powerfist_left.palm.partName=Palm
+model.powerfist_left.supportbaseleft.partName=Support Base Left
+model.powerfist_left.supportleftfront.partName=Support Left Front
+model.powerfist_left.supportrightfront.partName=Support Right Front
+model.powerfist_left.supportleft1.partName=Support Left 1
+model.powerfist_left.supportleft2.partName=Support Left 2
+model.powerfist_left.supportleft3.partName=Support Left 3
+model.powerfist_left.supportleft4.partName=Support Left 4
+model.powerfist_left.supportleft5.partName=Support Left 5
+
+model.powerfist_fingers_normal_left.modelName=Power Fist Left Fingers Normal Pose
+model.powerfist_fingers_normal_left.index1.partName=Index 1
+model.powerfist_fingers_normal_left.index2.partName= Index 2
+model.powerfist_fingers_normal_left.middlefinger1.partName=Middle Finger 1
+model.powerfist_fingers_normal_left.middlefinger2.partName=Middle Finger 2
+model.powerfist_fingers_normal_left.ringfinger1.partName=Ring Finger 1
+model.powerfist_fingers_normal_left.ringfinger2.partName=Ring Finger 2
+model.powerfist_fingers_normal_left.pinky1.partName=Pinky 1
+model.powerfist_fingers_normal_left.pinky2.partName=Pinky 2
+model.powerfist_fingers_normal_left.thumb1.partName=Thumb 1
+model.powerfist_fingers_normal_left.thumb2.partName=Thumb 2
+
+model.powerfist_fingers_firing_left.modelName=Power Fist Left Fingers Firing Pose
+model.powerfist_fingers_firing_left.index1.partName=Index 1
+model.powerfist_fingers_firing_left.index2.partName= Index 2
+model.powerfist_fingers_firing_left.middlefinger1.partName=Middle Finger 1
+model.powerfist_fingers_firing_left.middlefinger2.partName=Middle Finger 2
+model.powerfist_fingers_firing_left.ringfinger1.partName=Ring Finger 1
+model.powerfist_fingers_firing_left.ringfinger2.partName=Ring Finger 2
+model.powerfist_fingers_firing_left.pinky1.partName=Pinky 1
+model.powerfist_fingers_firing_left.pinky2.partName=Pinky 2
+model.powerfist_fingers_firing_left.thumb1.partName=Thumb 1
+model.powerfist_fingers_firing_left.thumb2.partName=Thumb 2

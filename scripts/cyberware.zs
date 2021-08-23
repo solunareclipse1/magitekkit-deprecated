@@ -1,0 +1,26 @@
+recipes.remove(<rewired:charger_eu>);
+recipes.remove(<cyberware:component_box>);
+recipes.remove(<cyberware:surgery_chamber>);
+recipes.remove(<cyberware:charger>);
+recipes.remove(<cyberware:engineering_table>);
+recipes.remove(<cyberware:scanner>);
+recipes.remove(<cyberware:beacon>);
+recipes.remove(<cyberware:beacon_large>);
+recipes.remove(<cyberware:radio_post>);
+recipes.remove(<rewired:canopic_jar>);
+
+recipes.addShaped(<cyberware:blueprint:1> * 4, [[<minecraft:paper>, <extrabees:honey_comb:46>, <minecraft:paper>],[<extrabees:honey_comb:46>, <cyberware:component:*>, <extrabees:honey_comb:46>], [<minecraft:paper>, <extrabees:honey_comb:46>, <minecraft:paper>]]);
+recipes.addShaped(<rewired:canopic_jar>, [[<enderio:item_alloy_ingot:6>, <enderio:block_dark_steel_trapdoor>, <enderio:item_alloy_ingot:6>],[<enderio:item_alloy_ingot:6>, <liquid:cryotheum>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>]]);
+recipes.addShaped(<rewired:canopic_jar>, [[<thermalfoundation:material:352>, <ic2:plate:16>, <thermalfoundation:material:352>],[<thermalfoundation:material:352>, <liquid:ic2coolant>, <thermalfoundation:material:352>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
+recipes.addShapedMirrored(<cyberware:surgery> * 2, [[null, <cyberware:surgery>, null],[<galacticraftcore:basic_item:9>, <ore:circuitAdvanced>, <galacticraftcore:basic_item:9>], [<minecraft:iron_axe>, <minecraft:shears>, <minecraft:iron_sword>]]);
+recipes.addShapedMirrored(<cyberware:surgery> * 2, [[null, <cyberware:surgery>, null],[<enderio:block_alloy:6>, <genetics:misc:9>, <enderio:block_alloy:6>], [<minecraft:iron_axe>, <minecraft:shears>, <minecraft:iron_sword>]]);
+recipes.addShaped(<rewired:charger_eu>, [[<thermalfoundation:material:352>, <mekanismgenerators:generator:9>, <thermalfoundation:material:352>],[<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:te:80>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})], [<thermalfoundation:material:352>, <mekanism:transmitter>, <thermalfoundation:material:352>]]);
+recipes.addShaped(<cyberware:charger>, [[<thermalfoundation:material:352>, <immersiveengineering:metal_decoration0:2>, <thermalfoundation:material:352>],[<enderio:item_endergy_conduit:11>, <immersiveengineering:connector:8>, <enderio:item_endergy_conduit:11>], [<thermalfoundation:material:352>, <thermaldynamics:duct_0:5>, <thermalfoundation:material:352>]]);
+recipes.addShapedMirrored(<cyberware:engineering_table>, [[null, <minecraft:piston>, <thermalfoundation:material:352>],[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>], [<thermalfoundation:material:352>, <minecraft:iron_block>, <thermalfoundation:material:352>]]);
+recipes.addShaped(<cyberware:beacon_large>, [[<thermalfoundation:material:32>, <genetics:misc:9>, <thermalfoundation:material:32>],[<genetics:misc:9>, <cyberware:beacon>, <genetics:misc:9>], [<thermalfoundation:material:32>, <cyberware:radio_post>, <thermalfoundation:material:32>]]);
+recipes.addShaped(<cyberware:beacon_large>, [[<thermalfoundation:material:32>, <ore:circuitAdvanced>, <thermalfoundation:material:32>],[<ore:circuitAdvanced>, <cyberware:beacon>, <ore:circuitAdvanced>], [<thermalfoundation:material:32>, <cyberware:radio_post>, <thermalfoundation:material:32>]]);
+recipes.addShapedMirrored(<cyberware:beacon>, [[null, null, <cyberware:radio_post>],[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <cyberware:radio_post>], [<immersiveengineering:material:27>, <thermalfoundation:material:352>, <cyberware:radio_post>]]);
+recipes.addShapedMirrored(<cyberware:beacon>, [[null, null, <cyberware:radio_post>],[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <cyberware:radio_post>], [<ore:circuitBasic>, <thermalfoundation:material:352>, <cyberware:radio_post>]]);
+recipes.addShaped(<cyberware:radio_post>, [[<immersiveengineering:metal_decoration1>, <powersuits:powerarmorcomponent>, <immersiveengineering:metal_decoration1>],[<immersiveengineering:metal_decoration1>, <powersuits:powerarmorcomponent>, <immersiveengineering:metal_decoration1>], [<immersiveengineering:metal_decoration1>, <powersuits:powerarmorcomponent>, <immersiveengineering:metal_decoration1>]]);
+recipes.addShaped(<cyberware:scanner>, [[<metallurgy:steel_nugget>, <cyberware:cybereyes>, <metallurgy:steel_nugget>],[<metallurgy:steel_nugget>, null, <metallurgy:steel_nugget>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
+recipes.addShaped(<cyberware:neuropozyne>, [[<enderio:item_alloy_nugget:6>, <enderio:item_alloy_nugget:6>, <enderio:item_alloy_nugget:6>],[<enderio:item_alloy_nugget:6>, <fluid:nutrient_distillation> * 100, <enderio:item_alloy_nugget:6>], [<enderio:item_alloy_nugget:6>, <minecraft:iron_sword>, <enderio:item_alloy_nugget:6>]]);

@@ -1,0 +1,41 @@
+{
+    "name": "Dimensions of the Realm",
+    "icon": "tconstruct:ingots:2",
+    "category": "patchouli:basics",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This realm has a few different dimensions that you can access. There are a couple things about them worth mentioning."
+        },
+        {
+            "type": "spotlight",
+            "item": "aether_legacy:aether_portal_frame",
+            "text": "The Aether is a dimension opposite to the Nether. It is accessed in a similar way to its hellish kin, but with a couple differences. The frame of the portal is to be made of glowstone, and instead of using fire to activate it, water is used instead."
+        },
+        {
+            "type": "spotlight",
+            "item": "tconstruct:ore:1",
+            "text": "Contrary to popular belief, the Nether does not contain the material known as Ardite. In fact, Ardite is found in the exact opposite dimension, the Aether. Black Quartz Ore is also found in the Aether, though it is possible to get black quartz before going there."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:eyeEnder",
+            "text": "Accessing the End Dimension has been noted to be somewhat more difficult in this realm. The reasoning to why is unknown, but sprinkling a mixture of cobalt and ardite onto an Ender Pearl will transform it into an Eye of Ender."
+        },
+        {
+            "type": "spotlight",
+            "item": "tconstruct:ingots:2",
+            "text": "Large amounts of opposing dimensional energies exist within the alloy of Manyullyn. This allows the metal to be used to create portals to alternate dimensions."
+        },
+        {
+            "type": "spotlight",
+            "item": "twilightforest:miniature_structure",
+            "text": "Throwing an ingot of Manyullyn into a 2x2 pool of water surrounded by flowers will create a portal to the Twilight Forest."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:beneathTele",
+            "text": "Compressing some cobblestone onto a Manyullyn ingot will cause it to collapse into a portal to The Beneath. Make sure to stay in the light, the darkness there is extremely hostile."
+        }
+    ]
+}

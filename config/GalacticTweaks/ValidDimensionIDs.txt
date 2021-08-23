@@ -1,0 +1,14 @@
+
+This file is regenerated every time minecraft is ran to handle any addons added or removed
+
+| ### PLANETS ###
+|------------------
+| Overworld                     0
+| Mars                        -29
+| Asteroids                   -30
+| Venus                       -31
+
+
+| ### MOONS ###
+|------------------
+| Moon                        -28

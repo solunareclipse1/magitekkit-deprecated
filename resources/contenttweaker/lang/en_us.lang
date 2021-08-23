@@ -1,0 +1,28 @@
+#blocks
+tile.contenttweaker.alchemical_glowstone.name=Alchemical Glowstone
+tile.contenttweaker.soul_block.name=Ethereal Capturing Matrix
+tile.contenttweaker.bluesteel.name=Bluesteel
+
+#items
+item.contenttweaker.rune_starlight.name=Rune of Starlight
+item.contenttweaker.temporal_alloy.name=Temporal Alloy
+item.contenttweaker.spatial_crystal.name=Spatial Crystal
+item.contenttweaker.temporal_cog.name=Temporal Cog
+item.contenttweaker.soul_powder.name=Soul-filled Powder
+item.contenttweaker.big_pearl.name=Timeless Orb
+item.contenttweaker.food_matter.name=Delicious Conglomerate
+item.contenttweaker.soulic_compound.name=Soulic Compound
+item.contenttweaker.unknown_material.name=Bizarre Bee Byproduct
+item.contenttweaker.steelar_alloy.name=Polysteel Ingot
+item.contenttweaker.steelar_alloy_raw.name=Steelar Amalgam
+item.contenttweaker.thirgree_ingot.name=Thirgree Alloy Ingot
+item.contenttweaker.branz_ingot.name=Branz Ingot
+item.contenttweaker.raw_signalum.name=Hotrod Compound
+item.contenttweaker.powerless_signalum.name=Powerless Alloy
+item.contenttweaker.phased_alloy.name=Phased Ingot
+item.contenttweaker.intrepid_ingot.name=Intrepid Alloy
+item.contenttweaker.angered_ingot.name=Angered Ingot
+item.contenttweaker.physics_disobeyer.name=Ingot of Physics-Disobedient Material
+item.contenttweaker.low_corporeal_alloy.name=Incorporeal Alloy
+item.contenttweaker.enraged_alloy.name=Enraged Alloy
+item.contenttweaker.alien_amalgam.name=Alienated Amalgam
