@@ -1,6 +1,27 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<enderio:block_inventory_chest_warehouse13>);
+recipes.remove(<enderio:block_inventory_chest_warehouse>);
+recipes.remove(<enderio:block_inventory_chest_enormous>);
+recipes.remove(<enderio:block_inventory_chest_huge>);
+recipes.remove(<enderio:block_inventory_chest_large>);
+recipes.remove(<enderio:block_inventory_chest_big>);
+recipes.remove(<enderio:block_inventory_chest_medium>);
+recipes.remove(<enderio:block_inventory_chest_small>);
+recipes.remove(<enderio:block_crafter>);
+recipes.remove(<enderio:block_niard>);
+recipes.remove(<enderio:block_xp_vacuum>);
+recipes.remove(<enderio:block_vacuum_chest>);
+recipes.remove(<enderio:block_powered_spawner>);
+recipes.remove(<enderio:block_ender_generator>);
+recipes.remove(<enderio:block_franken_zombie_generator>);
+recipes.remove(<enderio:block_zombie_generator>);
+recipes.remove(<enderio:block_solar_panel:*>);
+recipes.remove(<enderio:block_slice_and_splice>);
+recipes.remove(<enderio:block_tele_pad>);
+recipes.remove(<enderio:block_travel_anchor>);
+recipes.remove(<enderio:block_simple_crafter>);
 recipes.remove(<enderio:block_omni_reservoir>);
 recipes.remove(<enderio:block_reservoir>);
 recipes.remove(<enderio:block_tank:1>);
@@ -124,6 +145,24 @@ recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.removeShapeless(<minecraft:planks> * 64, [ <twilightforest:giant_log>]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<enderio:block_inventory_chest_warehouse13>, [<enderio:block_inventory_chest_warehouse>,<enderio:item_alloy_endergy_nugget:3>,<enderio:item_alloy_endergy_nugget:3>,<enderio:item_alloy_endergy_nugget:3>]);
+recipes.addShaped(<enderio:block_inventory_chest_warehouse>, [[<enderio:item_material:68>, <enderio:item_material:68>, <enderio:item_material:68>],[<enderio:item_material:68>, <enderio:block_inventory_chest_enormous>, <enderio:item_material:68>], [<enderio:item_material:68>, <enderio:item_material:68>, <enderio:item_material:68>]]);
+recipes.addShapeless(<enderio:block_inventory_chest_enormous>, [<enderio:block_inventory_chest_large>,<enderio:item_material:66>]);
+recipes.addShapeless(<enderio:block_inventory_chest_huge>, [<enderio:block_inventory_chest_large>,<enderio:item_material:53>]);
+recipes.addShapeless(<enderio:block_inventory_chest_large>, [<enderio:block_inventory_chest_big>,<enderio:item_material:55>]);
+recipes.addShaped(<enderio:block_inventory_chest_big>, [[<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>],[<enderio:item_material:2>, <enderio:block_inventory_chest_medium>, <enderio:item_material:2>], [<enderio:item_material:2>, <enderio:item_material:2>, <enderio:item_material:2>]]);
+recipes.addShaped(<enderio:block_inventory_chest_medium>, [[<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>],[<enderio:item_material:69>, <ironchest:iron_chest:2>, <enderio:item_material:69>], [<enderio:item_material:69>, <enderio:item_material:69>, <enderio:item_material:69>]]);
+recipes.addShaped(<enderio:block_crafter>, [[<buildcraftsilicon:laser>, <buildcraftsilicon:advanced_crafting_table>, <buildcraftsilicon:laser>],[<thermalfoundation:material:167>, <enderio:item_material:1>, <thermalfoundation:material:167>], [<enderio:item_material:11>, <thermalexpansion:machine:11>, <enderio:item_material:11>]]);
+recipes.addShaped(<enderio:block_niard>, [[<thermalfoundation:material:359>, <enderio:block_tank:1>, <thermalfoundation:material:359>],[<minecraft:piston>, <enderio:item_material:1>, <minecraft:piston>], [<enderio:block_dark_iron_bars>, <enderio:item_alloy_nugget>, <enderio:block_dark_iron_bars>]]);
+recipes.addShaped(<enderio:block_powered_spawner>, [[<enderio:item_alloy_ingot:7>, <enderio:item_material:41>, <enderio:item_alloy_ingot:7>],[<enderio:item_alloy_ingot:7>, <enderio:item_material:53>, <enderio:item_alloy_ingot:7>], [<enderio:item_material:12>, <enderio:item_broken_spawner>, <enderio:item_material:12>]]);
+recipes.addShaped(<enderio:block_solar_panel:6>, [[<enderio:item_alloy_endergy_nugget:3>, <ore:enlightenedFusedQuartz>, <enderio:item_alloy_endergy_nugget:3>],[<enderio:item_alloy_endergy_ingot:2>, <enderio:block_solar_panel:5>, <enderio:item_alloy_endergy_ingot:2>], [<enderio:item_alloy_endergy_nugget:3>, <enderio:item_capacitor_stellar>, <enderio:item_alloy_endergy_nugget:3>]]);
+recipes.addShaped(<enderio:block_solar_panel:5>, [[<enderio:item_alloy_endergy_nugget:2>, <ore:enlightenedFusedQuartz>, <enderio:item_alloy_endergy_nugget:2>],[<enderio:item_alloy_endergy_ingot:1>, <enderio:block_solar_panel:4>, <enderio:item_alloy_endergy_ingot:1>], [<enderio:item_alloy_endergy_nugget:2>, <enderio:item_capacitor_melodic>, <enderio:item_alloy_endergy_nugget:2>]]);
+recipes.addShaped(<enderio:block_solar_panel:4>, [[<enderio:item_alloy_endergy_nugget:1>, <ore:enlightenedFusedQuartz>, <enderio:item_alloy_endergy_nugget:1>],[<enderio:item_alloy_ingot:2>, <enderio:block_solar_panel:3>, <enderio:item_alloy_ingot:2>], [<enderio:item_alloy_endergy_nugget:1>, <enderio:item_capacitor_crystalline>, <enderio:item_alloy_endergy_nugget:1>]]);
+recipes.addShaped(<enderio:block_solar_panel:3>, [[<enderio:item_alloy_nugget:2>, <ore:enlightenedFusedQuartz>, <enderio:item_alloy_nugget:2>],[<enderio:item_alloy_ingot:1>, <enderio:block_solar_panel:1>, <enderio:item_alloy_ingot:1>], [<enderio:item_alloy_nugget:2>, <enderio:item_basic_capacitor:2>, <enderio:item_alloy_nugget:2>]]);
+recipes.addShaped(<enderio:block_solar_panel:1>, [[<enderio:item_alloy_nugget:1>, <ore:enlightenedFusedQuartz>, <enderio:item_alloy_nugget:1>],[<minecraft:daylight_detector>, <enderio:block_solar_panel>, <minecraft:daylight_detector>], [<enderio:item_alloy_nugget:1>, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_nugget:1>]]);
+recipes.addShaped(<enderio:block_solar_panel>, [[<enderio:item_alloy_nugget>, <ore:blockGlassHardened>, <enderio:item_alloy_nugget>],[<enderio:item_material:3>, <enderio:item_material:3>, <enderio:item_material:3>], [<enderio:item_alloy_nugget>, <enderio:item_basic_capacitor>, <enderio:item_alloy_nugget>]]);
+recipes.addShaped(<enderio:block_slice_and_splice>, [[<enderio:item_alloy_ingot:7>, <minecraft:dispenser>, <enderio:item_alloy_ingot:7>],[<enderio:item_alloy_ingot:7>, <enderio:item_material:53>, <enderio:item_alloy_ingot:7>], [<enderio:item_material:12>, <enderio:block_dark_iron_bars>, <enderio:item_material:12>]]);
+recipes.addShaped(<enderio:block_travel_anchor>, [[<enderio:item_alloy_nugget:5>, <thermalfoundation:material:231>, <enderio:item_alloy_nugget:5>],[<thermalfoundation:material:231>, <enderio:item_material:1>, <thermalfoundation:material:231>], [<enderio:item_alloy_nugget:5>, <thermalfoundation:material:231>, <enderio:item_alloy_nugget:5>]]);
 recipes.addShaped(<enderio:block_transceiver>, [[<enderio:item_material:54>, <tconstruct:ingots:2>, <enderio:item_material:54>],[<tconstruct:ingots:2>, <enderio:item_material:44>, <tconstruct:ingots:2>], [<enderio:item_material:54>, <tconstruct:ingots:2>, <enderio:item_material:54>]]);
 recipes.addShaped(<enderio:block_tank:1>, [[<enderio:block_dark_iron_bars>, <enderio:block_dark_steel_trapdoor>, <enderio:block_dark_iron_bars>],[<enderio:block_dark_iron_bars>, <enderio:item_material:1>, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_dark_steel_trapdoor>, <enderio:block_dark_iron_bars>]]);
 recipes.addShaped(<enderio:block_wireless_charger>, [[<enderio:item_alloy_ingot>, <thermalexpansion:augment:402>, <enderio:item_alloy_ingot>],[<enderio:item_alloy_nugget>, <enderio:item_material:1>, <enderio:item_alloy_nugget>], [<enderio:item_alloy_ingot>, <thermalexpansion:machine:9>, <enderio:item_alloy_ingot>]]);

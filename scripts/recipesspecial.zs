@@ -411,7 +411,7 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:166
 
 //fluid transposer
 mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:22> * 2, <mysticalagriculture:crafting:28>, <liquid:experience> * 200, 42);
-mods.thermalexpansion.Transposer.addFillRecipe(<easypickings:unstable_goo>, <contenttweaker:quagree_ingot>, <liquid:pyrotheum> * 10000, 666666);
+mods.thermalexpansion.Transposer.addFillRecipe(<easypickings:unstable_goo>.withTag({easypickings: 1}), <contenttweaker:quagree_ingot>, <liquid:pyrotheum> * 10000, 666666);
 
 ////aether
 //enchanter
