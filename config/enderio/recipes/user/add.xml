@@ -162,6 +162,15 @@
 		</alloying>
 	</recipe>
 
+	<recipe name="Quartz-Iron" required="true">
+		<alloying energy="28085" exp="0.5">
+			<input name="blockDeepIron"/>
+			<input name="blockQuartz"/>
+			<input name="blockShadowIron"/>
+			<output name="refinedstorage:quartz_enriched_iron"/>
+		</alloying>
+	</recipe>
+
 	<recipe name="Super Chassis" required="true">
 		<alloying energy="1000000" exp="0.5">
 			<input name="itemEndSteelMachineChassi"/>

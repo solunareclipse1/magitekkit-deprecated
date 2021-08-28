@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<refinedstorage:quartz_enriched_iron>);
+recipes.remove(<refinedstorage:storage_housing>);
 recipes.remove(<enderio:block_inventory_chest_warehouse13>);
 recipes.remove(<enderio:block_inventory_chest_warehouse>);
 recipes.remove(<enderio:block_inventory_chest_enormous>);
@@ -142,9 +144,10 @@ recipes.remove(<mysticalagriculture:tier4_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier3_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier2_inferium_seeds>);
 recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
-recipes.removeShapeless(<minecraft:planks> * 64, [ <twilightforest:giant_log>]);
+recipes.removeShapeless(<minecraft:planks> * 64, [<twilightforest:giant_log>]);
 //Don't touch me!
 //#Add
+recipes.addShaped(<refinedstorage:storage_housing>, [[null, <refinedstorage:quartz_enriched_iron>, null],[<refinedstorage:quartz_enriched_iron>, <enderio:block_inventory_chest_medium>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <genetics:misc:9>, <refinedstorage:quartz_enriched_iron>]]);
 recipes.addShapeless(<enderio:block_inventory_chest_warehouse13>, [<enderio:block_inventory_chest_warehouse>,<enderio:item_alloy_endergy_nugget:3>,<enderio:item_alloy_endergy_nugget:3>,<enderio:item_alloy_endergy_nugget:3>]);
 recipes.addShaped(<enderio:block_inventory_chest_warehouse>, [[<enderio:item_material:68>, <enderio:item_material:68>, <enderio:item_material:68>],[<enderio:item_material:68>, <enderio:block_inventory_chest_enormous>, <enderio:item_material:68>], [<enderio:item_material:68>, <enderio:item_material:68>, <enderio:item_material:68>]]);
 recipes.addShapeless(<enderio:block_inventory_chest_enormous>, [<enderio:block_inventory_chest_huge>,<enderio:item_material:66>]);
