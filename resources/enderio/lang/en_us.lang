@@ -1600,8 +1600,8 @@ enderio.item_item_conduit.name=Item Conduit
 # CapBanks
 tile.block_cap_bank.creative.name=Creative Capacitor Bank
 tile.block_cap_bank.simple.name=Basic Capacitor Bank
-tile.block_cap_bank.activated.name=Capacitor Bank
-tile.block_cap_bank.vibrant.name=Vibrant Capacitor Bank
+tile.block_cap_bank.activated.name=Energetic Capacitor Bank
+tile.block_cap_bank.vibrant.name=Capacitor Bank
 tile.block_cap_bank.tooltip.detailed.line1=Multi-block energy storage.
 tile.block_cap_bank.tooltip.detailed.line2=Can charge RF powered items. (to be removed)
 tile.block_cap_bank.tooltip.detailed.line3=Shift-R-Click on a face with an empty hand
