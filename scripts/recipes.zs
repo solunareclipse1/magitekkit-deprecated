@@ -1,6 +1,10 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<thermalfoundation:material:1027>);
+recipes.remove(<thermalfoundation:material:1026>);
+recipes.remove(<thermalfoundation:material:1025>);
+recipes.remove(<thermalfoundation:material:1024>);
 recipes.remove(<thermalfoundation:material:16>);
 furnace.remove(<refinedstorage:processor:5>);
 furnace.remove(<refinedstorage:processor:4>);
@@ -158,6 +162,10 @@ recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.removeShapeless(<minecraft:planks> * 64, [<twilightforest:giant_log>]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<thermalfoundation:material:1027>, [<thermalfoundation:material:2053>,<thermalfoundation:material:2053>,<thermalfoundation:geode>,<metallurgy:mithril_dust>]);
+recipes.addShapeless(<thermalfoundation:material:1026>, [<thermalfoundation:material:2051>,<thermalfoundation:material:2051>,<minecraft:shulker_shell>,<metallurgy:mithril_dust>]);
+recipes.addShapeless(<thermalfoundation:material:1025>, [<thermalfoundation:material:2049>,<thermalfoundation:material:2049>,<ic2:dust:9>,<metallurgy:mithril_dust>]);
+recipes.addShaped(<thermalfoundation:material:1024>, [[<minecraft:blaze_powder>, <minecraft:blaze_powder>, null],[<metallurgy:thermite_dust>, <metallurgy:mithril_dust>, null], [null, null, null]]);
 recipes.addShapeless(<buildcraftcore:engine:2>, [<buildcraftcore:engine:1>,<minecraft:quartz_block>,<minecraft:quartz_block>]);
 recipes.addShaped(<refinedstorage:processor:2>, [[<metallurgy:quicksilver_ingot>, <refinedstorage:processor:1>, <metallurgy:quicksilver_ingot>],[<metallurgy:quicksilver_ingot>, <refinedstorage:processor_binding>, <metallurgy:quicksilver_ingot>], [<metallurgy:quicksilver_ingot>, <refinedstorage:processor:1>, <metallurgy:quicksilver_ingot>]]);
 recipes.addShaped(<refinedstorage:processor:1>, [[<metallurgy:midasium_ingot>, <refinedstorage:processor>, <metallurgy:midasium_ingot>],[<metallurgy:midasium_ingot>, <refinedstorage:processor_binding>, <metallurgy:midasium_ingot>], [<metallurgy:midasium_ingot>, <refinedstorage:processor>, <metallurgy:midasium_ingot>]]);

@@ -417,9 +417,22 @@ mods.thermalexpansion.Transposer.addFillRecipe(<easypickings:unstable_goo>.withT
 //enchanter
 mods.aether_legacy.Enchanter.registerEnchantment(<extendedcrafting:material:19>, <extendedcrafting:material:13>, 12096000);
 
-////fluid crafting
+////in world crafting
+//fluid
 mods.inworldcrafting.FluidToItem.transform(<refinedstorage:processor_binding>, <liquid:cryotheum>, [<contenttweaker:processor_binder_composite>], false);
 mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cryotheum>, [<refinedstorage:processor_binding>], false);
+
+mods.inworldcrafting.FluidToItem.transform(<easypickings:unstable_goo>.withTag({easypickings: 1}), <liquid:pyrotheum>, [<contenttweaker:quagree_ingot>], false);
+mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:pyrotheum>, [<easypickings:unstable_goo>], false);
+
+mods.inworldcrafting.FluidToItem.transform(<thermalfoundation:geode> * 5, <liquid:petrotheum>, [<bewitchment:block_of_amethyst>], false);
+mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:petrotheum>, [<thermalfoundation:geode>], false);
+
+mods.inworldcrafting.FluidToItem.transform(<aether_legacy:gummy_swet:1>, <liquid:aerotheum>, [<aether_legacy:swetty_ball>], false);
+mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:aerotheum>, [<aether_legacy:gummy_swet:1>], false);
+
+//explosion
+mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<thermalfoundation:geode>, <bewitchment:amethyst_ore>, 10);
 
 ////forestry
 //carpenter
