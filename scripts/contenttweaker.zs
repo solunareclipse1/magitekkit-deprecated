@@ -111,6 +111,14 @@ var rsProcessor1 = VanillaFactory.createItem("processor_binder_composite");
 rsProcessor1.maxStackSize = 64;
 rsProcessor1.register();
 
+var rsProcessor2 = VanillaFactory.createItem("processor_housing");
+rsProcessor2.maxStackSize = 64;
+rsProcessor2.register();
+
+var rsProcessor3 = VanillaFactory.createItem("storage_chip");
+rsProcessor3.maxStackSize = 64;
+rsProcessor3.register();
+
 var blockSoul = VanillaFactory.createBlock("soul_block", <blockmaterial:web>);
 blockSoul.setLightValue(0);
 blockSoul.setBlockHardness(666.0);

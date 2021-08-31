@@ -345,32 +345,16 @@
       "emc": 307
     },
     {
-      "item": "thermalfoundation:material|1024",
-      "emc": 355
-    },
-    {
-      "item": "thermalfoundation:material|1025",
-      "emc": 339
-    },
-    {
       "item": "thermalfoundation:material|772",
       "emc": 192
     },
     {
-      "item": "thermalfoundation:material|1026",
-      "emc": 435
-    },
-    {
-      "item": "thermalfoundation:material|1027",
-      "emc": 347
-    },
-    {
       "item": "projecte:item.pe_covalence_dust|1",
-      "emc": 327680
+      "emc": 400000
     },
     {
       "item": "projecte:item.pe_covalence_dust|2",
-      "emc": 655360
+      "emc": 800000
     },
     {
       "item": "minecraft:ender_eye|0",
@@ -1574,7 +1558,7 @@
     },
     {
       "item": "projecte:item.pe_covalence_dust|0",
-      "emc": 163840
+      "emc": 200000
     },
     {
       "item": "mysticalagriculture:crafting|0",
@@ -1650,7 +1634,7 @@
     },
     {
       "item": "thermalfoundation:material|1028",
-      "emc": 20480
+      "emc": 100000
     },
     {
       "item": "enderio:item_material|22",
@@ -1719,6 +1703,34 @@
     {
       "item": "refinedstorage:processor_binding|0",
       "emc": 8827
+    },
+    {
+      "item": "metallurgy:thermite_dust|0",
+      "emc": 416
+    },
+    {
+      "item": "thermalfoundation:material|1024",
+      "emc": 66566
+    },
+    {
+      "item": "thermalfoundation:material|1025",
+      "emc": 67014
+    },
+    {
+      "item": "thermalfoundation:material|1026",
+      "emc": 68198
+    },
+    {
+      "item": "thermalfoundation:geode|0",
+      "emc": 3686
+    },
+    {
+      "item": "metallurgy:mithril_block|0",
+      "emc": 589824
+    },
+    {
+      "item": "thermalfoundation:material|1027",
+      "emc": 69836
     }
   ]
 }

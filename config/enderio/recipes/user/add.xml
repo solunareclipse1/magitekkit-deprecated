@@ -171,6 +171,15 @@
 		</alloying>
 	</recipe>
 
+	<recipe name="Processor House" required="true">
+		<alloying energy="11010" exp="0.5">
+			<input name="itemRemoteAwarenessUpgrade"/>
+			<input name="shulkerShell"/>
+			<input name="refinedstorage:quartz_enriched_iron"/>
+			<output name="contenttweaker:processor_housing"/>
+		</alloying>
+	</recipe>
+
 	<recipe name="Super Chassis" required="true">
 		<alloying energy="1000000" exp="0.5">
 			<input name="itemEndSteelMachineChassi"/>
