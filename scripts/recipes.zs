@@ -1,6 +1,32 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<refinedstorage:network_transmitter>);
+recipes.remove(<refinedstorage:fluid_interface>);
+recipes.remove(<refinedstorage:upgrade:2>);
+recipes.remove(<refinedstorage:filter>);
+recipes.remove(<refinedstorage:network_card>);
+recipes.remove(<refinedstorage:controller>);
+recipes.remove(<refinedstorage:portable_grid>);
+recipes.remove(<refinedstorage:upgrade>);
+recipes.remove(<refinedstorage:upgrade:1>);
+recipes.remove(<refinedstorage:wireless_transmitter>);
+recipes.remove(<refinedstorage:wireless_grid>);
+recipes.remove(<refinedstorage:wireless_fluid_grid>);
+recipes.remove(<refinedstorage:wireless_crafting_monitor>);
+recipes.remove(<enderio:item_inventory_remote>);
+recipes.remove(<refinedstorage:external_storage>);
+recipes.remove(<refinedstorage:cable>);
+recipes.remove(<refinedstorage:storage_monitor>);
+recipes.remove(<rebornstorage:storagecellfluid:*>);
+recipes.remove(<refinedstorage:fluid_storage_disk:*>);
+recipes.remove(<refinedstorage:disk_drive>);
+recipes.remove(<refinedstorage:disk_manipulator>);
+recipes.remove(<refinedstorage:pattern>);
+recipes.remove(<refinedstorage:grid:3>);
+recipes.remove(<rebornstorage:multicrafter:*>);
+recipes.remove(<refinedstorage:fluid_storage:*>);
+recipes.remove(<refinedstorage:storage:*>);
 recipes.remove(<refinedstorage:grid>);
 recipes.remove(<refinedstorage:security_card>);
 recipes.remove(<refinedstorage:crafter>);
@@ -168,6 +194,31 @@ recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.removeShapeless(<minecraft:planks> * 64, [<twilightforest:giant_log>]);
 //Don't touch me!
 //#Add
+recipes.addShaped(<refinedstorage:network_receiver>, [[<refinedstorage:quartz_enriched_iron>, <wrcbe:wireless_logic:1>, <refinedstorage:quartz_enriched_iron>],[<refinedstorage:processor:5>, <refinedstorage:machine_casing>, <refinedstorage:processor:5>], [<refinedstorage:quartz_enriched_iron>, <contenttweaker:io_chip>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShaped(<refinedstorage:network_transmitter>, [[<refinedstorage:quartz_enriched_iron>, <wrcbe:wireless_logic>, <refinedstorage:quartz_enriched_iron>],[<refinedstorage:processor:5>, <refinedstorage:machine_casing>, <refinedstorage:processor:5>], [<refinedstorage:quartz_enriched_iron>, <contenttweaker:io_chip>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShapeless(<refinedstorage:upgrade:4>, [<refinedstorage:processor_binding>,<refinedstorage:upgrade:2>,<refinedstorage:upgrade:2>]);
+recipes.addShapeless(<refinedstorage:upgrade:2>, [<refinedstorage:upgrade>,<refinedstorage:processor:4>,<thermalfoundation:material:894>]);
+recipes.addShapeless(<refinedstorage:filter>, [<thermaldynamics:filter:1>,<refinedstorage:quartz_enriched_iron>]);
+recipes.addShapeless(<refinedstorage:network_card>, [<refinedstorage:upgrade>,<contenttweaker:storage_chip>,<extrabitmanipulation:diamond_nugget>]);
+recipes.addShaped(<refinedstorage:portable_grid>, [[null, <refinedstorage:grid>, null],[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:controller>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShapeless(<refinedstorage:upgrade>, [<contenttweaker:processor_housing>,<minecraft:gold_nugget>,<minecraft:gold_nugget>]);
+recipes.addShapedMirrored(<enderio:item_inventory_remote:2>, [[null, null, <enderio:block_enhanced_wireless_charger>],[<enderio:item_alloy_ingot:7>, <enderio:item_inventory_remote:1>, <enderio:item_alloy_ingot:7>], [<enderio:item_alloy_ingot:7>, <enderio:item_material:44>, <enderio:item_alloy_ingot:7>]]);
+recipes.addShapedMirrored(<enderio:item_inventory_remote:1>, [[null, null, <enderio:item_travel_staff>],[<enderio:item_alloy_ingot:6>, <enderio:item_inventory_remote>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot:6>, <enderio:item_material:16>, <enderio:item_alloy_ingot:6>]]);
+recipes.addShapedMirrored(<enderio:item_inventory_remote>, [[null, null, <cyberware:beacon_large>],[<enderio:item_alloy_ingot>, <enderio:block_inventory_panel>, <enderio:item_alloy_ingot>], [<enderio:item_alloy_ingot>, <enderio:block_wireless_charger>, <enderio:item_alloy_ingot>]]);
+recipes.addShapedMirrored(<refinedstorage:external_storage>, [[null, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],[null, <refinedstorage:cable>, <contenttweaker:io_chip>], [null, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShaped(<refinedstorage:cable> * 16, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],[<projectred-core:resource_item:104>, <projectred-core:resource_item:104>, <projectred-core:resource_item:104>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShapedMirrored(<refinedstorage:crafter_manager>, [[<contenttweaker:storage_chip>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],[<contenttweaker:io_chip>, <refinedstorage:machine_casing>, <ore:darkFusedQuartz>], [<contenttweaker:storage_chip>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShapedMirrored(<refinedstorage:crafting_monitor>, [[<refinedstorage:pattern>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>],[<contenttweaker:storage_chip>, <refinedstorage:machine_casing>, <ore:darkFusedQuartz>], [<refinedstorage:pattern>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShapedMirrored(<refinedstorage:storage_monitor>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <ore:darkFusedQuartz>],[<contenttweaker:io_chip>, <refinedstorage:machine_casing>, <ore:drawerBasic>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <ore:darkFusedQuartz>]]);
+recipes.addShaped(<refinedstorage:disk_manipulator>, [[<refinedstorage:quartz_enriched_iron>, <contenttweaker:storage_chip>, <refinedstorage:quartz_enriched_iron>],[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <contenttweaker:io_chip>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShaped(<refinedstorage:pattern>, [[null, <refinedstorage:quartz_enriched_iron>, null],[<refinedstorage:quartz_enriched_iron>, <contenttweaker:storage_chip>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <minecraft:paper>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShaped(<rebornstorage:multicrafter:4>, [[<rebornstorage:multicrafter>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>],[<rebornstorage:multicrafter:1>, <contenttweaker:io_chip>, <rebornstorage:multicrafter:1>], [<rebornstorage:multicrafter>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>]]);
+recipes.addShaped(<rebornstorage:multicrafter:3>, [[<rebornstorage:multicrafter>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>],[<rebornstorage:multicrafter:1>, <refinedstorage:storage_part>, <rebornstorage:multicrafter:1>], [<rebornstorage:multicrafter>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>]]);
+recipes.addShaped(<rebornstorage:multicrafter:2>, [[<rebornstorage:multicrafter>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>],[<rebornstorage:multicrafter:1>, <refinedstorage:processor:5>, <rebornstorage:multicrafter:1>], [<rebornstorage:multicrafter>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>]]);
+recipes.addShaped(<rebornstorage:multicrafter:1> * 2, [[<thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>],[<thermalfoundation:material:132>, <rebornstorage:multicrafter>, <thermalfoundation:material:132>], [<thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>]]);
+recipes.addShaped(<rebornstorage:multicrafter>, [[null, <refinedstorage:quartz_enriched_iron>, null],[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>], [null, <refinedstorage:quartz_enriched_iron>, null]]);
+recipes.addShapedMirrored(<refinedstorage:crafter>, [[<rebornstorage:multicrafter:1>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>],[<refinedstorage:processor:4>, <refinedstorage:machine_casing>, <buildcraftsilicon:advanced_crafting_table>], [<rebornstorage:multicrafter:1>, <rebornstorage:multicrafter:1>, <rebornstorage:multicrafter>]]);
+recipes.addShapedMirrored(<refinedstorage:grid>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <enderio:item_alloy_ingot:6>],[<contenttweaker:io_chip>, <refinedstorage:machine_casing>, <ore:darkFusedQuartz>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <enderio:item_alloy_ingot:6>]]);
 recipes.addShapeless(<contenttweaker:io_chip>, [<contenttweaker:storage_chip>,<refinedstorage:core>,<refinedstorage:core:1>,<refinedstorage:processor_binding>]);
 recipes.addShaped(<refinedstorage:security_manager>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:grid>, <refinedstorage:quartz_enriched_iron>],[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:security_card>, <refinedstorage:quartz_enriched_iron>]]);
 recipes.addShaped(<refinedstorage:security_card>, [[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>],[<refinedstorage:quartz_enriched_iron>, <enderio:item_material:45>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
