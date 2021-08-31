@@ -32,3 +32,11 @@
 /usercache.json
 /usernamecache.json
 /config.bak.json
+config/fantasticlib/reference/blocks.txt
+config/fantasticlib/reference/blockstates.txt
+config/fantasticlib/reference/entities.txt
+config/fantasticlib/reference/items.txt
+config/fantasticlib/reference/oredict.txt
+config/fantasticlib/reference/recipes.txt
+config/fantasticlib/reference/sounds.txt
+config/fantasticlib/reference/villager_professions.txt

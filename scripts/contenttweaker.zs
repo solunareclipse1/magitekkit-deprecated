@@ -119,6 +119,10 @@ var rsProcessor3 = VanillaFactory.createItem("storage_chip");
 rsProcessor3.maxStackSize = 64;
 rsProcessor3.register();
 
+var rsProcessor4 = VanillaFactory.createItem("io_chip");
+rsProcessor4.maxStackSize = 64;
+rsProcessor4.register();
+
 var blockSoul = VanillaFactory.createBlock("soul_block", <blockmaterial:web>);
 blockSoul.setLightValue(0);
 blockSoul.setBlockHardness(666.0);
