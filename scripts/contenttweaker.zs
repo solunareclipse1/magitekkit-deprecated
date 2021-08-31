@@ -104,8 +104,12 @@ var bluesteelBlock = VanillaFactory.createBlock("bluesteel", <blockmaterial:iron
 bluesteelBlock.register();
 
 var quagree = VanillaFactory.createItem("quagree_ingot");
-quagree.maxStackSize = 16;
+quagree.maxStackSize = 64;
 quagree.register();
+
+var rsProcessor1 = VanillaFactory.createItem("processor_binder_composite");
+rsProcessor1.maxStackSize = 64;
+rsProcessor1.register();
 
 var blockSoul = VanillaFactory.createBlock("soul_block", <blockmaterial:web>);
 blockSoul.setLightValue(0);

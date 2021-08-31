@@ -1,4 +1,5 @@
 //good luck reading this
+recipes.removeByMod("projectred-expansion");
 furnace.remove(<projectred-core:resource_item>);
 recipes.remove(<projectred-exploration:backpack:*>);
 recipes.remove(<tconstruct:stone_stick>);
@@ -281,8 +282,6 @@ recipes.addShaped(<buildcraftfactory:mining_well>, [[<thermalfoundation:material
 recipes.addShaped(<buildcraftfactory:autoworkbench_item>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<thermalfoundation:material:290>, <forestry:worktable>, <thermalfoundation:material:290>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<buildcraftcore:engine:1>, [[<immersiveengineering:sheetmetal:8>, <immersiveengineering:sheetmetal:8>, <immersiveengineering:sheetmetal:8>],[null, <thermalfoundation:material:162>, null], [<thermalfoundation:material:290>, <immersiveengineering:metal_decoration0:6>, <thermalfoundation:material:290>]]);
 recipes.addShaped(<buildcraftbuilders:quarry>, [[<thermalfoundation:material:354>, <thermalfoundation:material:290>, <thermalfoundation:material:354>],[<thermalfoundation:material:290>, <buildcraftfactory:mining_well>, <thermalfoundation:material:290>], [<thermalfoundation:material:354>, <thermalfoundation:material:290>, <thermalfoundation:material:354>]]);
-recipes.addShaped(<genetics:misc:9>, [[<ore:itemSilicon>, <genetics:misc:8>, <ore:itemSilicon>],[<genetics:misc:8>, <genetics:misc:8>, <genetics:misc:8>], [<ore:itemSilicon>, <genetics:misc:8>, <ore:itemSilicon>]]);
-recipes.addShaped(<genetics:misc:8>, [[<powersuits:powerarmorcomponent>, <immersiveengineering:material:27>, <powersuits:powerarmorcomponent>],[null, <forestry:chipsets:3>, null], [<powersuits:powerarmorcomponent>, <immersiveengineering:material:27>, <powersuits:powerarmorcomponent>]]);
 recipes.addShaped(<genetics:misc:10>, [[<genetics:misc:8>, <genetics:misc:9>, <genetics:misc:8>],[<genetics:misc:9>, <genetics:misc>, <genetics:misc:9>], [<genetics:misc:8>, <genetics:misc:9>, <genetics:misc:8>]]);
 recipes.addShaped(<genetics:misc>, [[<ore:gearPlatinum>, <ore:plateSteel>, <ore:gearPlatinum>],[<ore:plateSteel>, <forestry:hardened_machine>, <ore:plateSteel>], [<ore:gearPlatinum>, <ore:plateSteel>, <ore:gearPlatinum>]]);
 recipes.addShaped(<mekanism:speedupgrade>, [[null, <mekanismgenerators:reactorglass>, null],[<mekanism:atomicalloy>, <metallurgy:gold_dust>, <mekanism:atomicalloy>], [null, <mekanismgenerators:reactorglass>, null]]);

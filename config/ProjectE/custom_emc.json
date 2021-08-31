@@ -1711,6 +1711,14 @@
     {
       "item": "enderio:item_alloy_endergy_ingot|3",
       "emc": 1796828
+    },
+    {
+      "item": "contenttweaker:processor_binder_composite|0",
+      "emc": 7471
+    },
+    {
+      "item": "refinedstorage:processor_binding|0",
+      "emc": 8827
     }
   ]
 }

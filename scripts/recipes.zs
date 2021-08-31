@@ -1,6 +1,17 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<thermalfoundation:material:16>);
+furnace.remove(<refinedstorage:processor:5>);
+furnace.remove(<refinedstorage:processor:4>);
+furnace.remove(<refinedstorage:processor:3>);
+recipes.remove(<refinedstorage:processor_binding>);
+recipes.remove(<refinedstorage:core:1>);
+recipes.remove(<refinedstorage:core>);
+recipes.remove(<refinedstorage:processor:2>);
+recipes.remove(<refinedstorage:processor:1>);
+recipes.remove(<refinedstorage:processor>);
+recipes.remove(<refinedstorage:machine_casing>);
 recipes.remove(<refinedstorage:quartz_enriched_iron>);
 recipes.remove(<refinedstorage:storage_housing>);
 recipes.remove(<enderio:block_inventory_chest_warehouse13>);
@@ -147,6 +158,12 @@ recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.removeShapeless(<minecraft:planks> * 64, [<twilightforest:giant_log>]);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<buildcraftcore:engine:2>, [<buildcraftcore:engine:1>,<minecraft:quartz_block>,<minecraft:quartz_block>]);
+recipes.addShaped(<refinedstorage:processor:2>, [[<metallurgy:quicksilver_ingot>, <refinedstorage:processor:1>, <metallurgy:quicksilver_ingot>],[<metallurgy:quicksilver_ingot>, <refinedstorage:processor_binding>, <metallurgy:quicksilver_ingot>], [<metallurgy:quicksilver_ingot>, <refinedstorage:processor:1>, <metallurgy:quicksilver_ingot>]]);
+recipes.addShaped(<refinedstorage:processor:1>, [[<metallurgy:midasium_ingot>, <refinedstorage:processor>, <metallurgy:midasium_ingot>],[<metallurgy:midasium_ingot>, <refinedstorage:processor_binding>, <metallurgy:midasium_ingot>], [<metallurgy:midasium_ingot>, <refinedstorage:processor>, <metallurgy:midasium_ingot>]]);
+recipes.addShaped(<refinedstorage:processor>, [[<refinedstorage:quartz_enriched_iron>, <genetics:misc:9>, <refinedstorage:quartz_enriched_iron>],[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor_binding>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <genetics:misc:9>, <refinedstorage:quartz_enriched_iron>]]);
+recipes.addShapeless(<contenttweaker:processor_binder_composite>, [<thermalfoundation:material:101>,<enderio:item_material:48>,<enderio:item_material:22>,<enderio:item_material:75>]);
+recipes.addShaped(<refinedstorage:machine_casing>, [[<enderio:item_alloy_nugget>, <metallurgy:black_steel_ingot>, <enderio:item_alloy_nugget>],[<metallurgy:black_steel_ingot>, <refinedstorage:quartz_enriched_iron_block>, <metallurgy:black_steel_ingot>], [<enderio:item_alloy_nugget>, <metallurgy:black_steel_ingot>, <enderio:item_alloy_nugget>]]);
 recipes.addShaped(<refinedstorage:storage_housing>, [[null, <refinedstorage:quartz_enriched_iron>, null],[<refinedstorage:quartz_enriched_iron>, <enderio:block_inventory_chest_medium>, <refinedstorage:quartz_enriched_iron>], [<refinedstorage:quartz_enriched_iron>, <genetics:misc:9>, <refinedstorage:quartz_enriched_iron>]]);
 recipes.addShapeless(<enderio:block_inventory_chest_warehouse13>, [<enderio:block_inventory_chest_warehouse>,<enderio:item_alloy_endergy_nugget:3>,<enderio:item_alloy_endergy_nugget:3>,<enderio:item_alloy_endergy_nugget:3>]);
 recipes.addShaped(<enderio:block_inventory_chest_warehouse>, [[<enderio:item_material:68>, <enderio:item_material:68>, <enderio:item_material:68>],[<enderio:item_material:68>, <enderio:block_inventory_chest_enormous>, <enderio:item_material:68>], [<enderio:item_material:68>, <enderio:item_material:68>, <enderio:item_material:68>]]);

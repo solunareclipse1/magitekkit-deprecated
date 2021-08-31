@@ -416,3 +416,54 @@ mods.thermalexpansion.Transposer.addFillRecipe(<easypickings:unstable_goo>.withT
 ////aether
 //enchanter
 mods.aether_legacy.Enchanter.registerEnchantment(<extendedcrafting:material:19>, <extendedcrafting:material:13>, 12096000);
+
+////fluid crafting
+mods.inworldcrafting.FluidToItem.transform(<refinedstorage:processor_binding>, <liquid:cryotheum>, [<contenttweaker:processor_binder_composite>], false);
+mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cryotheum>, [<refinedstorage:processor_binding>], false);
+
+////forestry
+//carpenter
+mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:*>);
+
+mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}), [
+	[<extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>], 
+	[<jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>], 
+	[<extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>]], 
+    15, <liquid:redstone> * 100, <immersiveengineering:material:27>);
+mods.forestry.Carpenter.addRecipe(<forestry:chipsets:1>.withTag({T: 1 as short}), [
+	[<contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>], 
+	[<jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>], 
+	[<contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>]], 
+    15, <liquid:redstone> * 200, <forestry:chipsets>.withTag({T: 0 as short}));
+mods.forestry.Carpenter.addRecipe(<forestry:chipsets:2>.withTag({T: 2 as short}), [
+	[<thermalfoundation:material:132>, <projectred-core:resource_item:105>, <thermalfoundation:material:132>], 
+	[<projectred-core:resource_item:105>, <thermalfoundation:material:132>, <projectred-core:resource_item:105>], 
+	[<thermalfoundation:material:132>, <projectred-core:resource_item:105>, <thermalfoundation:material:132>]], 
+    15, <liquid:redstone> * 300, <forestry:chipsets:1>.withTag({T: 1 as short}));
+mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>.withTag({T: 3 as short}), [
+	[<minecraft:gold_ingot>, <projectred-core:resource_item:104>, <minecraft:gold_ingot>], 
+	[<projectred-core:resource_item:104>, <minecraft:gold_ingot>, <projectred-core:resource_item:104>], 
+	[<minecraft:gold_ingot>, <projectred-core:resource_item:104>, <minecraft:gold_ingot>]], 
+    15, <liquid:redstone> * 400, <forestry:chipsets:2>.withTag({T: 2 as short}));
+mods.forestry.Carpenter.addRecipe(<genetics:misc:8>, [
+	[<buildcraftsilicon:redstone_chipset:4>, <thermalfoundation:material:353>, <buildcraftsilicon:redstone_chipset:4>], 
+	[null, <projectred-core:resource_item:341>, null], 
+	[<buildcraftsilicon:redstone_chipset:4>, <thermalfoundation:material:353>, <buildcraftsilicon:redstone_chipset:4>]], 
+    60, <liquid:redstone> * 1000, <forestry:chipsets:3>.withTag({T: 3 as short}));
+
+////buildcraft
+//assembly table
+mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:redstone_chipset");
+mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:iron_chipset");
+mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:gold_chipset");
+mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:quartz_chipset");
+mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:diamond_chipset");
+mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:plug_pulsar");
+
+mods.buildcraft.AssemblyTable.addRecipe("pipeEngine", <buildcraftsilicon:plug_pulsar>, 1000, [<buildcraftsilicon:redstone_chipset>, <thermalfoundation:material:288>, <buildcrafttransport:plug_blocker>]);
+mods.buildcraft.AssemblyTable.addRecipe("chippyRed", <buildcraftsilicon:redstone_chipset>, 5000, [<immersiveengineering:material:27>, <enderio:item_alloy_ingot:3>]);
+mods.buildcraft.AssemblyTable.addRecipe("chippyQuartz", <buildcraftsilicon:redstone_chipset:3>, 10000, [<buildcraftsilicon:redstone_chipset>, <minecraft:quartz>]);
+mods.buildcraft.AssemblyTable.addRecipe("chippyIron", <buildcraftsilicon:redstone_chipset:1>, 20000, [<buildcraftsilicon:redstone_chipset:3>, <minecraft:iron_ingot>, <metallurgy:deep_iron_ingot>, <metallurgy:shadow_iron_ingot>]);
+mods.buildcraft.AssemblyTable.addRecipe("chippyGold", <buildcraftsilicon:redstone_chipset:2>, 40000, [<buildcraftsilicon:redstone_chipset:1>, <minecraft:gold_ingot>, <metallurgy:midasium_ingot>]);
+mods.buildcraft.AssemblyTable.addRecipe("chippyDiamond", <buildcraftsilicon:redstone_chipset:4>, 80000, [<buildcraftsilicon:redstone_chipset:2>, <minecraft:diamond>]);
+mods.buildcraft.AssemblyTable.addRecipe("cpu", <genetics:misc:9>, 160000, [<genetics:misc:8> * 4, <projectred-core:resource_item:342>, <immersiveengineering:material:21> * 8]);
