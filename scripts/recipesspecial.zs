@@ -423,7 +423,10 @@ mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cryotheum>, [
 
 ////forestry
 //carpenter
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:*>);
+mods.forestry.Carpenter.removeRecipe(<forestry:chipsets>);
+mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:1>);
+mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>);
+mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>);
 
 mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}), [
 	[<extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>], 
