@@ -8,6 +8,6 @@ roots:wild_mage
 rewired:runner
 bewitchment:hedge_witch
 bewitchment:alchemist
-forestry:apiarist
 forestry:arborist
+forestry:apiarist
 immersiveengineering:engineer

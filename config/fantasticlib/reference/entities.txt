@@ -95,12 +95,8 @@ astralsorcery:entityliquidspark
 astralsorcery:entityobservatoryhelper
 astralsorcery:entityshootingstar
 astralsorcery:entityitemdamageresistant
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
+quark:seat
 quark:chest_passenger
-quark:gravisand
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -108,7 +104,11 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:seat
+quark:gravisand
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:totem_of_holding
 quark:stoneling
 quark:archaeologist
@@ -499,9 +499,9 @@ aether_legacy:lightning_knife
 aether_legacy:parachute
 aether_legacy:whirlwind
 aether_legacy:tipped_phoenix_arrow
+forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
-forestry:butterflyge
 p455w0rdslib:sitting_entity
 galacticraftcore:evolved_spider
 galacticraftcore:evolved_zombie

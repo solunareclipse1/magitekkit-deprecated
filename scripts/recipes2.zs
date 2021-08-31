@@ -1,5 +1,6 @@
 //good luck reading this
 recipes.removeByMod("projectred-expansion");
+recipes.removeByMod("projectred-transportation");
 furnace.remove(<projectred-core:resource_item>);
 recipes.remove(<projectred-exploration:backpack:*>);
 recipes.remove(<tconstruct:stone_stick>);

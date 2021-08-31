@@ -1,6 +1,9 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<rebornstorage:storagepart:*>);
+recipes.remove(<refinedstorage:fluid_storage_part:*>);
+recipes.remove(<refinedstorage:storage_part:*>);
 recipes.remove(<thermalfoundation:material:1027>);
 recipes.remove(<thermalfoundation:material:1026>);
 recipes.remove(<thermalfoundation:material:1025>);
@@ -162,6 +165,14 @@ recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
 recipes.removeShapeless(<minecraft:planks> * 64, [<twilightforest:giant_log>]);
 //Don't touch me!
 //#Add
+recipes.addShaped(<rebornstorage:storagepart:3>, [[<refinedstorage:processor:5>, <rebornstorage:storagepart:2>, <refinedstorage:processor:5>],[<rebornstorage:storagepart:2>, <deepmoblearning:glitch_heart>, <rebornstorage:storagepart:2>], [<refinedstorage:processor:5>, <rebornstorage:storagepart:2>, <refinedstorage:processor:5>]]);
+recipes.addShaped(<rebornstorage:storagepart:2>, [[<refinedstorage:processor:5>, <rebornstorage:storagepart:1>, <refinedstorage:processor:5>],[<rebornstorage:storagepart:1>, <jaopca:item_platedenseprometheum>, <rebornstorage:storagepart:1>], [<refinedstorage:processor:5>, <rebornstorage:storagepart:1>, <refinedstorage:processor:5>]]);
+recipes.addShaped(<rebornstorage:storagepart:1>, [[<refinedstorage:processor:5>, <rebornstorage:storagepart>, <refinedstorage:processor:5>],[<rebornstorage:storagepart>, <galacticraftplanets:basic_item_venus:2>, <rebornstorage:storagepart>], [<refinedstorage:processor:5>, <rebornstorage:storagepart>, <refinedstorage:processor:5>]]);
+recipes.addShaped(<rebornstorage:storagepart>, [[<refinedstorage:processor:5>, <refinedstorage:storage_part:3>, <refinedstorage:processor:5>],[<refinedstorage:storage_part:3>, <draconicevolution:nugget:1>, <refinedstorage:storage_part:3>], [<refinedstorage:processor:5>, <refinedstorage:storage_part:3>, <refinedstorage:processor:5>]]);
+recipes.addShaped(<refinedstorage:storage_part:3>, [[<refinedstorage:processor:4>, <refinedstorage:storage_part:2>, <refinedstorage:processor:4>],[<refinedstorage:storage_part:2>, <enderio:item_alloy_endergy_ball:1>, <refinedstorage:storage_part:2>], [<refinedstorage:processor:4>, <refinedstorage:storage_part:2>, <refinedstorage:processor:4>]]);
+recipes.addShaped(<refinedstorage:storage_part:2>, [[<refinedstorage:processor:4>, <refinedstorage:storage_part:1>, <refinedstorage:processor:4>],[<refinedstorage:storage_part:1>, <enderio:item_alloy_ball:2>, <refinedstorage:storage_part:1>], [<refinedstorage:processor:4>, <refinedstorage:storage_part:1>, <refinedstorage:processor:4>]]);
+recipes.addShaped(<refinedstorage:storage_part:1>, [[<refinedstorage:processor:3>, <refinedstorage:storage_part>, <refinedstorage:processor:3>],[<refinedstorage:storage_part>, <enderio:item_material:59>, <refinedstorage:storage_part>], [<refinedstorage:processor:3>, <refinedstorage:storage_part>, <refinedstorage:processor:3>]]);
+recipes.addShaped(<refinedstorage:storage_part>, [[<refinedstorage:processor:3>, <immersiveengineering:material:18>, <refinedstorage:processor:3>],[<immersiveengineering:material:18>, <contenttweaker:storage_chip>, <immersiveengineering:material:18>], [<refinedstorage:processor:3>, <immersiveengineering:material:18>, <refinedstorage:processor:3>]]);
 recipes.addShapeless(<contenttweaker:storage_chip> * 8, [<refinedstorage:cutting_tool>.transformDamage(),<enderio:block_inventory_chest_medium>]);
 recipes.addShapeless(<thermalfoundation:material:1027>, [<thermalfoundation:material:2053>,<thermalfoundation:material:2053>,<thermalfoundation:geode>,<metallurgy:mithril_dust>]);
 recipes.addShapeless(<thermalfoundation:material:1026>, [<thermalfoundation:material:2051>,<thermalfoundation:material:2051>,<minecraft:shulker_shell>,<metallurgy:mithril_dust>]);

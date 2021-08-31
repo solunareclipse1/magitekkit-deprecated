@@ -485,6 +485,17 @@ mods.forestry.Carpenter.addRecipe(<refinedstorage:processor:5>, [
 	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>]], 
     240, <liquid:gold> * 10, <contenttweaker:processor_housing>);
 
+mods.forestry.Carpenter.addRecipe(<refinedstorage:core>, [
+	[<projectred-core:resource_item:342>, <projectred-core:resource_item:342>, <projectred-core:resource_item:342>], 
+	[<projectred-core:resource_item:342>, <refinedstorage:processor>, <projectred-core:resource_item:342>], 
+	[<projectred-core:resource_item:342>, <projectred-core:resource_item:342>, <projectred-core:resource_item:342>]], 
+    240, <liquid:gold> * 10, <contenttweaker:processor_housing>);
+mods.forestry.Carpenter.addRecipe(<refinedstorage:core:1>, [
+	[<projectred-core:resource_item:320>, <projectred-core:resource_item:320>, <projectred-core:resource_item:320>], 
+	[<projectred-core:resource_item:320>, <refinedstorage:processor>, <projectred-core:resource_item:320>], 
+	[<projectred-core:resource_item:320>, <projectred-core:resource_item:320>, <projectred-core:resource_item:320>]], 
+    240, <liquid:gold> * 10, <contenttweaker:processor_housing>);
+
 ////buildcraft
 //assembly table
 mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:redstone_chipset");
