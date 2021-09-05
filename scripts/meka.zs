@@ -48,8 +48,6 @@ recipes.remove(<mekanism:basicblock2>);
 recipes.remove(<mekanism:basicblock:9>);
 recipes.remove(<avaritia:resource>);
 recipes.removeShaped(<avaritia:resource:1>, [[null, null, null],[<avaritia:resource>, <minecraft:nether_star>, <avaritia:resource>], [<avaritia:resource>, <minecraft:nether_star>, <avaritia:resource>]]);
-recipes.removeShaped(<ic2:nuclear:4>, [[<ic2:ingot:8>, <ic2:ingot:8>, <ic2:ingot:8>],[<bigreactors:ingotblutonium>, <bigreactors:ingotblutonium>, <bigreactors:ingotblutonium>], [<ic2:ingot:8>, <ic2:ingot:8>, <ic2:ingot:8>]]);
-recipes.removeShaped(<ic2:nuclear:4>, [[<ic2:nuclear:2>, <ic2:nuclear:2>, <ic2:nuclear:2>],[<bigreactors:ingotblutonium>, <bigreactors:ingotblutonium>, <bigreactors:ingotblutonium>], [<ic2:nuclear:2>, <ic2:nuclear:2>, <ic2:nuclear:2>]]);
 recipes.remove(<mekanism:flamethrower>);
 recipes.remove(<mekanism:freerunners>);
 recipes.remove(<mekanism:basicblock:7>);
