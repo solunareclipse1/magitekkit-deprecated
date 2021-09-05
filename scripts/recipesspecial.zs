@@ -85,7 +85,7 @@ mods.bloodmagic.TartaricForge.addRecipe(<randomthings:spectrekey>,[<botania:king
 mods.bloodmagic.AlchemyArray.addRecipe(<randomthings:ingredient:3>, <metallurgy:amordrine_ingot>, <contenttweaker:soul_powder>, "contenttweaker:textures/misc/soulCircle.png");
 
 //alchemytable
-mods.bloodmagic.AlchemyTable.addRecipe(<extendedcrafting:material:32>, [<extendedcrafting:material:33>, <bloodmagic:dagger_of_sacrifice>, <contenttweaker:soul_block>, <enderio:item_material:44>, <enderio:item_material:17>, <cyberware:body_part:1>], 666666,666,6);
+mods.bloodmagic.AlchemyTable.addRecipe(<extendedcrafting:material:32>, [<extendedcrafting:material:33>, <bloodmagic:dagger_of_sacrifice>, <contenttweaker:soul_block>, <botania:corporeaspark:1>, <mysticalagriculture:crafting:38>, <cyberware:body_part:1>], 666666,666,6);
 
 ////extended crafting
 mods.extendedcrafting.EnderCrafting.remove(<extendedcrafting:material:40>);
@@ -269,27 +269,6 @@ mods.mekanism.infuser.addRecipe("OBSIDIAN", 80, <mekanism:reinforcedalloy>, <ic2
 mods.mekanism.reaction.addRecipe(<ic2:nuclear:8>, <liquid:ic2uu_matter> * 500, <gas:sulfuricacid> * 1000, <mekanism:reinforcedalloy>, <gas:sulfurdioxide> * 750, 75, 1200);
 mods.mekanism.reaction.addRecipe(<ic2:nuclear:9>, <liquid:ic2uu_matter> * 1500, <gas:sulfuricacid> * 10000, <mekanism:atomicalloy>, <gas:sulfurdioxide> * 7500, 150, 12000);
 
-////immeng
-//alloy kiln
-mods.immersiveengineering.AlloySmelter.removeRecipe(<thermalfoundation:material:162>);
-mods.immersiveengineering.AlloySmelter.removeRecipe(<projectred-core:resource_item:103>);
-
-//squeezer
-mods.immersiveengineering.Squeezer.addRecipe(<extendedcrafting:material:19>, <liquid:binnie.dna.raw> * 86, <extendedcrafting:storage:4>, 86);
-
-//arc furnace
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:162> * 3);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<projectred-core:resource_item:103>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:6>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:7>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:item_alloy_ingot:1>);
-
-mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:226>, <jaopca:item_dusttinynickel>, null, 20, 512, [<ic2:dust:21>, <ic2:dust:21>], "Alloying");
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:item_alloy_nugget:3>, <metallurgy:copper_ingot>, null, 20, 512, [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], "Alloying");
-
-
 ////tinkers
 //alloying
 mods.tconstruct.Alloy.removeRecipe(<liquid:invar>);
@@ -308,10 +287,6 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:dark_steel>);
 //casting
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
-mods.tconstruct.Casting.removeTableRecipe(<enderio:item_material:12>);
-mods.tconstruct.Casting.removeTableRecipe(<enderio:item_material:13>);
-mods.tconstruct.Casting.removeTableRecipe(<enderio:item_material:73>);
-mods.tconstruct.Casting.removeTableRecipe(<enderio:item_material:11>);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:23>);
 
 mods.tconstruct.Casting.addTableRecipe(<buildcraftcore:gear_stone>, <buildcraftcore:gear_wood>, <liquid:stone>, 288, true, 200);
@@ -356,63 +331,6 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_mars:3>, <galacticraftcore:heavy_plating>, <galacticraftcore:item_basic_moon:1>, <galacticraftcore:heavy_plating>, <galacticraftcore:item_basic_moon:1>, <galacticraftcore:heavy_plating>, <galacticraftcore:item_basic_moon:1>, <galacticraftcore:heavy_plating>, <galacticraftcore:item_basic_moon:1>, <galacticraftcore:heavy_plating>);
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:3>);
 
-////thermal
-//centrifuge
-mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:101> * 4);
-mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:102> * 4);
-mods.thermalexpansion.Centrifuge.removeRecipe(<thermalfoundation:material:103> * 4);
-
-mods.thermalexpansion.Centrifuge.addRecipe([<bigreactors:ingotyellorium> % 100, <bigreactors:ingotyellorium> % 10, (<bigreactors:ingotyellorium> * 2) % 5, <bigreactors:ingotblutonium> % 2], <bigreactors:blockcyanite>, <liquid:oil_residue_heat_1> * 4000, 100000);
-
-//factorizer
-mods.thermalexpansion.Factorizer.removeRecipeSplit(<extendedcrafting:storage:4>);
-mods.thermalexpansion.Factorizer.removeRecipeSplit(<extendedcrafting:material:32>);
-
-mods.thermalexpansion.Factorizer.removeRecipeCombine(<extendedcrafting:material:33> * 9);
-mods.thermalexpansion.Factorizer.removeRecipeCombine(<extendedcrafting:material:32> * 9);
-
-//compacter
-mods.thermalexpansion.Compactor.addGearRecipe(<enderio:item_material:12>, <enderio:item_alloy_ingot:1> * 4, 10000);
-mods.thermalexpansion.Compactor.addGearRecipe(<enderio:item_material:13>, <enderio:item_alloy_ingot:2> * 4, 100000);
-mods.thermalexpansion.Compactor.addGearRecipe(<enderio:item_material:73>, <enderio:item_alloy_ingot:6> * 4, 1000);
-
-//energetic infuser
-mods.thermalexpansion.Infuser.addRecipe(<thermalfoundation:material:165>, <contenttweaker:powerless_signalum>, 65536);
-
-//induction furnace
-mods.thermalexpansion.InductionSmelter.removeRecipe(<refinedstorage:silicon>, <metallurgy:steel_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<refinedstorage:silicon>, <metallurgy:steel_dust>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <enderio:item_material:52>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:770> * 4, <metallurgy:steel_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:770> * 4, <metallurgy:steel_dust>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:ender_pearl>, <minecraft:iron_ingot>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:ender_pearl>, <metallurgy:iron_dust>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_alloy_ingot:1>, <minecraft:ender_pearl>);
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot:3> * 6, <minecraft:redstone_block>, <thermalfoundation:material:162>, 512);
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:powerless_signalum>, <enderio:block_alloy:3>, <contenttweaker:raw_signalum>, 2048);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:branz_ingot>, <metallurgy:bronze_ingot>, <metallurgy:brass_ingot>, 512);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:thirgree_ingot>, <metallurgy:ignatius_ingot>, <metallurgy:vulcanite_ingot>, 512);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:raw_signalum>, <contenttweaker:thirgree_ingot>, <contenttweaker:branz_ingot>, 1024);
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:phased_alloy>, <metallurgy:etherium_ingot>, <metallurgy:haderoth_ingot>, 4096);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:intrepid_ingot>, <metallurgy:desichalkos_ingot>, <metallurgy:inolashite_ingot>, 4096);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:physics_disobeyer>, <aether_legacy:enchanted_gravitite>, <thermalfoundation:material:895> * 4, 4096);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:angered_ingot>, <metallurgy:tartarite_ingot>, <thermalfoundation:material:165>, 4096);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:enraged_alloy>, <contenttweaker:angered_ingot>, <contenttweaker:physics_disobeyer>, 8192);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:low_corporeal_alloy>, <contenttweaker:phased_alloy>, <contenttweaker:intrepid_ingot>, 8192);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:167>, <contenttweaker:enraged_alloy>, <contenttweaker:low_corporeal_alloy>, 16384);
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:bluesteel>, <thermalfoundation:storage_alloy:2>, <projectred-core:resource_item:342>, 65536);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot>, <contenttweaker:bluesteel>, <thermalfoundation:storage_alloy:5>, 65536);
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:166>, <thermalfoundation:material:165>, <twilightforest:fiery_ingot>, 32768);
-
-//fluid transposer
-mods.thermalexpansion.Transposer.addFillRecipe(<enderio:item_material:22> * 2, <mysticalagriculture:crafting:28>, <liquid:experience> * 200, 42);
-mods.thermalexpansion.Transposer.addFillRecipe(<easypickings:unstable_goo>.withTag({easypickings: 1}), <contenttweaker:quagree_ingot>, <liquid:pyrotheum> * 10000, 666666);
-
 ////aether
 //enchanter
 mods.aether_legacy.Enchanter.registerEnchantment(<extendedcrafting:material:19>, <extendedcrafting:material:13>, 12096000);
@@ -442,10 +360,10 @@ mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>);
 
 mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}), [
-	[<extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>], 
-	[<jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>], 
-	[<extrabitmanipulation:diamond_nugget>, <jaopca:item_dusttinyelectrotine>, <extrabitmanipulation:diamond_nugget>]], 
-    15, <liquid:redstone> * 100, <immersiveengineering:material:27>);
+	[<metallurgy:osmium_nugget>, <jaopca:item_dusttinyelectrotine>, <metallurgy:osmium_nugget>], 
+	[<jaopca:item_dusttinyelectrotine>, <metallurgy:osmium_nugget>, <jaopca:item_dusttinyelectrotine>], 
+	[<metallurgy:osmium_nugget>, <jaopca:item_dusttinyelectrotine>, <metallurgy:osmium_nugget>]], 
+    15, <liquid:redstone> * 100, <ic2:crafting:1>);
 mods.forestry.Carpenter.addRecipe(<forestry:chipsets:1>.withTag({T: 1 as short}), [
 	[<contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>], 
 	[<jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>], 
@@ -495,20 +413,3 @@ mods.forestry.Carpenter.addRecipe(<refinedstorage:core:1>, [
 	[<projectred-core:resource_item:320>, <refinedstorage:processor>, <projectred-core:resource_item:320>], 
 	[<projectred-core:resource_item:320>, <projectred-core:resource_item:320>, <projectred-core:resource_item:320>]], 
     120, <liquid:gold> * 10, <contenttweaker:processor_housing>);
-
-////buildcraft
-//assembly table
-mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:redstone_chipset");
-mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:iron_chipset");
-mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:gold_chipset");
-mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:quartz_chipset");
-mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:diamond_chipset");
-mods.buildcraft.AssemblyTable.removeByName("buildcraftsilicon:plug_pulsar");
-
-mods.buildcraft.AssemblyTable.addRecipe("pipeEngine", <buildcraftsilicon:plug_pulsar>, 1000, [<buildcraftsilicon:redstone_chipset>, <thermalfoundation:material:288>, <buildcrafttransport:plug_blocker>]);
-mods.buildcraft.AssemblyTable.addRecipe("chippyRed", <buildcraftsilicon:redstone_chipset>, 5000, [<immersiveengineering:material:27>, <enderio:item_alloy_ingot:3>]);
-mods.buildcraft.AssemblyTable.addRecipe("chippyQuartz", <buildcraftsilicon:redstone_chipset:3>, 10000, [<buildcraftsilicon:redstone_chipset>, <minecraft:quartz>]);
-mods.buildcraft.AssemblyTable.addRecipe("chippyIron", <buildcraftsilicon:redstone_chipset:1>, 20000, [<buildcraftsilicon:redstone_chipset:3>, <minecraft:iron_ingot>, <metallurgy:deep_iron_ingot>, <metallurgy:shadow_iron_ingot>]);
-mods.buildcraft.AssemblyTable.addRecipe("chippyGold", <buildcraftsilicon:redstone_chipset:2>, 40000, [<buildcraftsilicon:redstone_chipset:1>, <minecraft:gold_ingot>, <metallurgy:midasium_ingot>]);
-mods.buildcraft.AssemblyTable.addRecipe("chippyDiamond", <buildcraftsilicon:redstone_chipset:4>, 80000, [<buildcraftsilicon:redstone_chipset:2>, <minecraft:diamond>]);
-mods.buildcraft.AssemblyTable.addRecipe("cpu", <genetics:misc:9>, 160000, [<genetics:misc:8> * 4, <projectred-core:resource_item:342>, <immersiveengineering:material:21> * 8]);

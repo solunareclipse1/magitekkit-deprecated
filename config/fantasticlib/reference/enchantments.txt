@@ -32,11 +32,6 @@ draconicevolution:enchant_reaper
 projectred-expansion:electric_efficiency
 randomthings:magnetic
 bewitchment:magic_protection
-enderio:shimmer
-enderio:witherweapon
-enderio:witherarrow
-enderio:soulbound
-enderio:repellent
 oeintegration:oreexcavation
 astralsorcery:enchantment.as.nightvision
 astralsorcery:enchantment.as.smelting

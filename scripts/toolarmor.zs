@@ -196,5 +196,4 @@ recipes.remove(<mekanismtools:bronzeaxe>);
 recipes.remove(<mekanismtools:bronzepickaxe>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<powersuits:tinkertable>, [[<enderio:item_alloy_nugget:6>, <powersuits:powerarmorcomponent:13>, <enderio:item_alloy_nugget:6>],[<enderio:item_alloy_ingot:6>, <powersuits:powerarmorcomponent:15>, <enderio:item_alloy_ingot:6>], [<enderio:item_alloy_ingot:6>, null, <enderio:item_alloy_ingot:6>]]);
 //File End

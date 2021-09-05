@@ -127,13 +127,6 @@ tconstruct:magnetic
 tconstruct:momentum
 tconstruct:dot
 tconstruct:splinter
-immersiveengineering:flammable
-immersiveengineering:slippery
-immersiveengineering:conductive
-immersiveengineering:sticky
-immersiveengineering:stunned
-immersiveengineering:concretefeet
-immersiveengineering:flashed
 xreliquary:flight_potion
 xreliquary:pacification_potion
 xreliquary:cure_potion
