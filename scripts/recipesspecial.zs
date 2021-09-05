@@ -271,18 +271,7 @@ mods.mekanism.reaction.addRecipe(<ic2:nuclear:9>, <liquid:ic2uu_matter> * 1500, 
 
 ////tinkers
 //alloying
-mods.tconstruct.Alloy.removeRecipe(<liquid:invar>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:energetic_alloy>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:vibrant_alloy>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:energetic_silver>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:pulsating_iron>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:conductive_iron>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:vivid_alloy>);
-mods.tconstruct.Alloy.removeRecipe(<liquid:dark_steel>);
 
 //casting
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
