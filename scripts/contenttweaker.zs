@@ -111,18 +111,15 @@ blockSoul.setBlockLayer("TRANSLUCENT");
 blockSoul.register();
 
 var iridiumOre = VanillaFactory.createBlock("iridium_ore", <blockmaterial:rock>);
-iridiumOre.setLightValue(0);
-iridiumOre.setBlockHardness(666.0);
-iridiumOre.setBlockResistance(1.0);
-iridiumOre.setToolClass("pickaxe");
-iridiumOre.setToolLevel(0);
+iridiumOre.setBlockHardness(100.0);
+iridiumOre.setBlockResistance(1200.0);
 iridiumOre.setBlockSoundType(<soundtype:stone>);
-iridiumOre.setTranslucent(true);
-iridiumOre.setFullBlock(false);
-iridiumOre.setLightOpacity(0);
-iridiumOre.setReplaceable(false);
-iridiumOre.setEntitySpawnable(false);
-iridiumOre.setBlockLayer("TRANSLUCENT");
+block.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.add(<item:ic2:misc_resource:2>);
+	return;
+});
+iridiumOre.setToolClass("pickaxe");
+iridiumOre.setToolLevel(7);
 iridiumOre.register();
 
 var thisItemExistsBecauseOfLimitedConfigurationOptions = VanillaFactory.createItem("soulic_compound");

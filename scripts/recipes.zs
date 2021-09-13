@@ -9,6 +9,13 @@ recipes.removeByMod("buildcraftbuilders");
 recipes.removeByMod("energyconverters");
 //Don't touch me!
 //#Add
+recipes.addShapeless(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), [<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}).onlyWithTag({type: 4 as byte, insulation: 1 as byte}),<ic2:cutter>.transformDamage();]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}).onlyWithTag({type: 3 as byte, insulation: 3 as byte}),<ic2:cutter>.transformDamage();]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}).onlyWithTag({type: 3 as byte, insulation: 2 as byte}),<ic2:cutter>.transformDamage();]);
+recipes.addShapeless(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}).onlyWithTag({type: 3 as byte, insulation: 1 as byte}),<ic2:cutter>.transformDamage();]);
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}).onlyWithTag({type: 2 as byte, insulation: 2 as byte}),<ic2:cutter>.transformDamage();]);
+recipes.addShapeless(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}).onlyWithTag({type: 2 as byte, insulation: 1 as byte}),<ic2:cutter>.transformDamage();]);
+recipes.addShapeless(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}).onlyWithTag({type: 0 as byte, insulation: 1 as byte}),<ic2:cutter>.transformDamage();]);
 recipes.addShaped(<ic2:te:82>, [[<ore:plateTin>, <chickenchunks:chunk_loader:1>, <ore:plateTin>],[<ore:gearLapis>, <ic2:resource:12>, <ore:gearLapis>], [<ore:plateTin>, <ore:circuitBasic>, <ore:plateTin>]]);
 recipes.addShaped(<draconicevolution:energy_infuser>, [[<ic2:crafting:15>, null, <ic2:crafting:15>],[<ic2:crafting:15>, <draconicevolution:draconic_core>, <ic2:crafting:15>], [<jaopca:item_platedraconium>, <jaopca:item_geardraconium>, <jaopca:item_platedraconium>]]);
 recipes.addShaped(<chargers:wireless_charger>, [[<ic2:casing:5>, <wrcbe:wireless_logic>, <ic2:casing:5>],[<ore:plateDenseSteel>, <mekanism:basicblock:8>, <ore:plateDenseSteel>], [<ore:plateDenseSteel>, <chargers:charger>, <ore:plateDenseSteel>]]);
