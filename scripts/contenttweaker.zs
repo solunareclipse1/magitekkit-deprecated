@@ -48,65 +48,6 @@ var unknownMaterial = VanillaFactory.createItem("unknown_material");
 unknownMaterial.maxStackSize = 64;
 unknownMaterial.register();
 
-var powersuitIngot = VanillaFactory.createItem("steelar_alloy");
-powersuitIngot.maxStackSize = 64;
-powersuitIngot.register();
-
-var powersuitIngotRaw = VanillaFactory.createItem("steelar_alloy_raw");
-powersuitIngotRaw.maxStackSize = 64;
-powersuitIngotRaw.register();
-
-var thirgree = VanillaFactory.createItem("thirgree_ingot");
-thirgree.maxStackSize = 64;
-thirgree.register();
-
-var branz = VanillaFactory.createItem("branz_ingot");
-branz.maxStackSize = 64;
-branz.register();
-
-var signalumRaw = VanillaFactory.createItem("raw_signalum");
-signalumRaw.maxStackSize = 64;
-signalumRaw.register();
-
-var signalumPowerless = VanillaFactory.createItem("powerless_signalum");
-signalumPowerless.maxStackSize = 64;
-signalumPowerless.register();
-
-var phaseAlloy = VanillaFactory.createItem("phased_alloy");
-phaseAlloy.maxStackSize = 64;
-phaseAlloy.register();
-
-var intrepidIngot = VanillaFactory.createItem("intrepid_ingot");
-intrepidIngot.maxStackSize = 64;
-intrepidIngot.register();
-
-var angeredIngot = VanillaFactory.createItem("angered_ingot");
-angeredIngot.maxStackSize = 64;
-angeredIngot.register();
-
-var physicsDisobeyer = VanillaFactory.createItem("physics_disobeyer");
-physicsDisobeyer.maxStackSize = 64;
-physicsDisobeyer.register();
-
-var lowCorporeal = VanillaFactory.createItem("low_corporeal_alloy");
-lowCorporeal.maxStackSize = 64;
-lowCorporeal.register();
-
-var enragedAlloy = VanillaFactory.createItem("enraged_alloy");
-enragedAlloy.maxStackSize = 64;
-enragedAlloy.register();
-
-var amalgamAlien = VanillaFactory.createItem("alien_amalgam");
-amalgamAlien.maxStackSize = 64;
-amalgamAlien.register();
-
-var bluesteelBlock = VanillaFactory.createBlock("bluesteel", <blockmaterial:iron>);
-bluesteelBlock.register();
-
-var quagree = VanillaFactory.createItem("quagree_ingot");
-quagree.maxStackSize = 64;
-quagree.register();
-
 var rsProcessor1 = VanillaFactory.createItem("processor_binder_composite");
 rsProcessor1.maxStackSize = 64;
 rsProcessor1.register();
@@ -123,6 +64,37 @@ var rsProcessor4 = VanillaFactory.createItem("io_chip");
 rsProcessor4.maxStackSize = 64;
 rsProcessor4.register();
 
+var uu100k = VanillaFactory.createItem("uu100k");
+uu100k.maxStackSize = 64;
+uu100k.register();
+
+var uu10k = VanillaFactory.createItem("uu10k");
+uu10k.maxStackSize = 64;
+uu10k.register();
+
+var uu1k = VanillaFactory.createItem("uu1k");
+uu1k.maxStackSize = 64;
+uu1k.register();
+
+var uu100 = VanillaFactory.createItem("uu100");
+uu100.maxStackSize = 64;
+uu100.register();
+
+var uu10 = VanillaFactory.createItem("uu10");
+uu10.maxStackSize = 64;
+uu10.register();
+
+var uu1 = VanillaFactory.createItem("uu1");
+uu1.maxStackSize = 64;
+uu1.register();
+
+var blockUU = VanillaFactory.createBlock("uu_block", <blockmaterial:cloth>);
+blockUU.setBlockResistance(999999.0);
+blockUU.setToolClass("shovel");
+blockUU.setWitherProof(true);
+blockUU.setBlockSoundType(<soundtype:slime>);
+blockUU.register();
+
 var blockSoul = VanillaFactory.createBlock("soul_block", <blockmaterial:web>);
 blockSoul.setLightValue(0);
 blockSoul.setBlockHardness(666.0);
@@ -138,6 +110,21 @@ blockSoul.setEntitySpawnable(false);
 blockSoul.setBlockLayer("TRANSLUCENT");
 blockSoul.register();
 
+var iridiumOre = VanillaFactory.createBlock("iridium_ore", <blockmaterial:rock>);
+iridiumOre.setLightValue(0);
+iridiumOre.setBlockHardness(666.0);
+iridiumOre.setBlockResistance(1.0);
+iridiumOre.setToolClass("pickaxe");
+iridiumOre.setToolLevel(0);
+iridiumOre.setBlockSoundType(<soundtype:stone>);
+iridiumOre.setTranslucent(true);
+iridiumOre.setFullBlock(false);
+iridiumOre.setLightOpacity(0);
+iridiumOre.setReplaceable(false);
+iridiumOre.setEntitySpawnable(false);
+iridiumOre.setBlockLayer("TRANSLUCENT");
+iridiumOre.register();
+
 var thisItemExistsBecauseOfLimitedConfigurationOptions = VanillaFactory.createItem("soulic_compound");
 thisItemExistsBecauseOfLimitedConfigurationOptions.maxStackSize = 1;
 thisItemExistsBecauseOfLimitedConfigurationOptions.register();
@@ -150,7 +137,7 @@ plastic.setCraftable(true);
 plastic.setCastable(false);
 plastic.addItem(<item:mekanism:polyethene:2>);
 plastic.representativeItem = <item:mekanism:polyethene:2>;
-plastic.addHeadMaterialStats(10000, 0.1, 0.1, 0);
+plastic.addHeadMaterialStats(1000, 0.1, 0.1, 0);
 plastic.addHandleMaterialStats(0.1, 1000);
 plastic.addExtraMaterialStats(250);
 plastic.addBowMaterialStats(10, 0.1, 0.1);

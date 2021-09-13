@@ -256,17 +256,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <botania:manatablet>.withTag({m
 	[<botania:manatablet>.withTag({mana: 500000}), <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <botania:manatablet>.withTag({mana: 500000})], 
 	[<botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000}), <botania:manatablet>.withTag({mana: 500000})]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(4, <buildcraftcore:engine:3>, [
-	[<avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>], 
-	[<avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>], 
-	[<avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>, <avaritia:block_resource:1>], 
-	[null, null, null, <metallurgy:tartarite_reinforced_glass>, <metallurgy:tartarite_reinforced_glass>, <metallurgy:tartarite_reinforced_glass>, null, null, null], 
-	[null, null, null, <metallurgy:tartarite_reinforced_glass>, <projectex:final_star>, <metallurgy:tartarite_reinforced_glass>, null, null, null], 
-	[null, null, null, <metallurgy:tartarite_reinforced_glass>, <metallurgy:tartarite_reinforced_glass>, <metallurgy:tartarite_reinforced_glass>, null, null, null], 
-	[<equivadditions:blue_matter_block>, <contenttweaker:temporal_cog>, <equivadditions:blue_matter_block>, <buildcraftcore:engine:2>, <buildcraftcore:engine:2>, <buildcraftcore:engine:2>, <equivadditions:blue_matter_block>, <contenttweaker:temporal_cog>, <equivadditions:blue_matter_block>], 
-	[<contenttweaker:temporal_cog>, <contenttweaker:temporal_cog>, <contenttweaker:temporal_cog>, <buildcraftcore:engine:2>, <buildcraftcore:engine:2>, <buildcraftcore:engine:2>, <contenttweaker:temporal_cog>, <contenttweaker:temporal_cog>, <contenttweaker:temporal_cog>], 
-	[<equivadditions:blue_matter_block>, <contenttweaker:temporal_cog>, <equivadditions:blue_matter_block>, <buildcraftcore:engine:2>, <buildcraftcore:engine:2>, <buildcraftcore:engine:2>, <equivadditions:blue_matter_block>, <contenttweaker:temporal_cog>, <equivadditions:blue_matter_block>]
-]);
 mods.extendedcrafting.TableCrafting.addShaped(4, <roots:creative_pouch>, [
 	[<roots:moonglow_leaf>, <roots:moonglow_leaf>, <roots:moonglow_leaf>, <roots:dewgonia>, <roots:dewgonia>, <roots:dewgonia>, <roots:spirit_herb>, <roots:spirit_herb>, <roots:spirit_herb>], 
 	[<roots:moonglow_leaf>, <roots:moonglow_leaf>, <roots:moonglow_leaf>, <roots:dewgonia>, <roots:dewgonia>, <roots:dewgonia>, <roots:spirit_herb>, <roots:spirit_herb>, <roots:spirit_herb>], 
