@@ -92,7 +92,7 @@ var blockUU = VanillaFactory.createBlock("uu_block", <blockmaterial:cloth>);
 blockUU.setBlockResistance(999999.0);
 blockUU.setToolClass("shovel");
 blockUU.setWitherProof(true);
-blockUU.setBlockSoundType(<soundtype:slime>);
+blockUU.setBlockSoundType(<soundtype:sand>);
 blockUU.register();
 
 var blockSoul = VanillaFactory.createBlock("soul_block", <blockmaterial:web>);
@@ -114,13 +114,22 @@ var iridiumOre = VanillaFactory.createBlock("iridium_ore", <blockmaterial:rock>)
 iridiumOre.setBlockHardness(100.0);
 iridiumOre.setBlockResistance(1200.0);
 iridiumOre.setBlockSoundType(<soundtype:stone>);
-block.setDropHandler(function(drops, world, position, state, fortune) {
+iridiumOre.setDropHandler(function(drops, world, position, state, fortune) {
+	drops.clear();
 	drops.add(<item:ic2:misc_resource:2>);
 	return;
 });
 iridiumOre.setToolClass("pickaxe");
-iridiumOre.setToolLevel(7);
+iridiumOre.setToolLevel(8);
 iridiumOre.register();
+
+var iridiumCrushed = VanillaFactory.createItem("crushed_iridium");
+iridiumCrushed.maxStackSize = 64;
+iridiumCrushed.register();
+
+var iridiumPurified = VanillaFactory.createItem("crushed_iridium");
+iridiumPurified.maxStackSize = 64;
+iridiumPurified.register();
 
 var thisItemExistsBecauseOfLimitedConfigurationOptions = VanillaFactory.createItem("soulic_compound");
 thisItemExistsBecauseOfLimitedConfigurationOptions.maxStackSize = 1;
@@ -134,9 +143,9 @@ plastic.setCraftable(true);
 plastic.setCastable(false);
 plastic.addItem(<item:mekanism:polyethene:2>);
 plastic.representativeItem = <item:mekanism:polyethene:2>;
-plastic.addHeadMaterialStats(1000, 0.1, 0.1, 0);
+plastic.addHeadMaterialStats(10000, 0.1, 0.1, 0);
 plastic.addHandleMaterialStats(0.1, 1000);
-plastic.addExtraMaterialStats(250);
+plastic.addExtraMaterialStats(2500);
 plastic.addBowMaterialStats(10, 0.1, 0.1);
 plastic.addFletchingMaterialStats(1, 2);
 plastic.addMaterialTrait("lightweight", "head");
@@ -151,3 +160,40 @@ plastic.addMaterialTrait("lightweight", "bow");
 plastic.addMaterialTrait("cheapskate", "bow");
 plastic.setLocalizedName("Plastic");
 plastic.register();
+
+
+val uuTool = mods.contenttweaker.tconstruct.MaterialBuilder.create("uu");
+uuTool.setColor(0xbc3987);
+uuTool.setHidden(false);
+uuTool.setCraftable(true);
+uuTool.setCastable(false);
+uuTool.setShard(<item:ic2:misc_resource:2>);
+uuTool.addItem(<item:ic2:misc_resource:3>, 1, 24);
+uuTool.representativeItem = <item:ic2:misc_resource:3>;
+uuTool.addHeadMaterialStats(500, 20, 10, 10);
+uuTool.addHandleMaterialStats(10, 500);
+uuTool.addExtraMaterialStats(500);
+uuTool.addBowMaterialStats(10, 10, 10);
+uuTool.addBowStringMaterialStats(10);
+uuTool.addArrowShaftMaterialStats(10, 500);
+uuTool.addFletchingMaterialStats(1, 10);
+uuTool.addProjectileMaterialStats();
+uuTool.addMaterialTrait("crumbling", "head");
+uuTool.addMaterialTrait("alien", "head");
+uuTool.addMaterialTrait("unnatural", "handle");
+uuTool.addMaterialTrait("alien", "handle");
+uuTool.addMaterialTrait("mending_moss", "extra");
+uuTool.addMaterialTrait("alien", "extra");
+uuTool.addMaterialTrait("knockback", "bow");
+uuTool.addMaterialTrait("alien", "bow");
+uuTool.addMaterialTrait("mending_moss", "bowstring");
+uuTool.addMaterialTrait("alien", "bowstring");
+uuTool.addMaterialTrait("mending_moss", "projectile");
+uuTool.addMaterialTrait("alien", "projectile");
+uuTool.addMaterialTrait("splitting", "shaft");
+uuTool.addMaterialTrait("hovering", "shaft");
+uuTool.addMaterialTrait("alien", "shaft");
+uuTool.addMaterialTrait("fins", "fletching");
+uuTool.addMaterialTrait("alien", "fletching");
+uuTool.setLocalizedName("UU-Matter");
+uuTool.register();
