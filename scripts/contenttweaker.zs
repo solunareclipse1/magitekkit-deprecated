@@ -127,7 +127,7 @@ var iridiumCrushed = VanillaFactory.createItem("crushed_iridium");
 iridiumCrushed.maxStackSize = 64;
 iridiumCrushed.register();
 
-var iridiumPurified = VanillaFactory.createItem("crushed_iridium");
+var iridiumPurified = VanillaFactory.createItem("purified_iridium");
 iridiumPurified.maxStackSize = 64;
 iridiumPurified.register();
 

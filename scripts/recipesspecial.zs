@@ -276,7 +276,6 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
 //casting
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
-mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:23>);
 
 mods.tconstruct.Casting.addTableRecipe(<buildcraftcore:gear_stone>, <buildcraftcore:gear_wood>, <liquid:stone>, 288, true, 200);
 mods.tconstruct.Casting.addBasinRecipe(<extendedcrafting:storage:4>, <extendedcrafting:material:32>, <liquid:liquid_death>, 161616, true, 32320);
@@ -326,20 +325,6 @@ mods.aether_legacy.Enchanter.registerEnchantment(<extendedcrafting:material:19>,
 
 ////in world crafting
 //fluid
-mods.inworldcrafting.FluidToItem.transform(<refinedstorage:processor_binding>, <liquid:cryotheum>, [<contenttweaker:processor_binder_composite>], false);
-mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:cryotheum>, [<refinedstorage:processor_binding>], false);
-
-mods.inworldcrafting.FluidToItem.transform(<easypickings:unstable_goo>.withTag({easypickings: 1}), <liquid:pyrotheum>, [<contenttweaker:quagree_ingot>], false);
-mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:pyrotheum>, [<easypickings:unstable_goo>], false);
-
-mods.inworldcrafting.FluidToItem.transform(<thermalfoundation:geode> * 5, <liquid:petrotheum>, [<bewitchment:block_of_amethyst>], false);
-mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:petrotheum>, [<thermalfoundation:geode>], false);
-
-mods.inworldcrafting.FluidToItem.transform(<aether_legacy:gummy_swet:1>, <liquid:aerotheum>, [<aether_legacy:swetty_ball>], false);
-mods.inworldcrafting.FluidToFluid.transform(<liquid:mana>, <liquid:aerotheum>, [<aether_legacy:gummy_swet:1>], false);
-
-//explosion
-mods.inworldcrafting.ExplosionCrafting.explodeBlockRecipe(<thermalfoundation:geode>, <bewitchment:amethyst_ore>, 10);
 
 ////forestry
 //carpenter
@@ -348,57 +333,3 @@ mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:1>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:2>);
 mods.forestry.Carpenter.removeRecipe(<forestry:chipsets:3>);
 
-mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}), [
-	[<metallurgy:osmium_nugget>, <jaopca:item_dusttinyelectrotine>, <metallurgy:osmium_nugget>], 
-	[<jaopca:item_dusttinyelectrotine>, <metallurgy:osmium_nugget>, <jaopca:item_dusttinyelectrotine>], 
-	[<metallurgy:osmium_nugget>, <jaopca:item_dusttinyelectrotine>, <metallurgy:osmium_nugget>]], 
-    15, <liquid:redstone> * 100, <ic2:crafting:1>);
-mods.forestry.Carpenter.addRecipe(<forestry:chipsets:1>.withTag({T: 1 as short}), [
-	[<contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>], 
-	[<jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>], 
-	[<contenttweaker:branz_ingot>, <jaopca:item_dustsmallelectrotine>, <contenttweaker:branz_ingot>]], 
-    15, <liquid:redstone> * 200, <forestry:chipsets>.withTag({T: 0 as short}));
-mods.forestry.Carpenter.addRecipe(<forestry:chipsets:2>.withTag({T: 2 as short}), [
-	[<thermalfoundation:material:132>, <projectred-core:resource_item:105>, <thermalfoundation:material:132>], 
-	[<projectred-core:resource_item:105>, <thermalfoundation:material:132>, <projectred-core:resource_item:105>], 
-	[<thermalfoundation:material:132>, <projectred-core:resource_item:105>, <thermalfoundation:material:132>]], 
-    15, <liquid:redstone> * 300, <forestry:chipsets:1>.withTag({T: 1 as short}));
-mods.forestry.Carpenter.addRecipe(<forestry:chipsets:3>.withTag({T: 3 as short}), [
-	[<minecraft:gold_ingot>, <projectred-core:resource_item:104>, <minecraft:gold_ingot>], 
-	[<projectred-core:resource_item:104>, <minecraft:gold_ingot>, <projectred-core:resource_item:104>], 
-	[<minecraft:gold_ingot>, <projectred-core:resource_item:104>, <minecraft:gold_ingot>]], 
-    15, <liquid:redstone> * 400, <forestry:chipsets:2>.withTag({T: 2 as short}));
-mods.forestry.Carpenter.addRecipe(<genetics:misc:8>, [
-	[<buildcraftsilicon:redstone_chipset:4>, <thermalfoundation:material:353>, <buildcraftsilicon:redstone_chipset:4>], 
-	[null, <projectred-core:resource_item:341>, null], 
-	[<buildcraftsilicon:redstone_chipset:4>, <thermalfoundation:material:353>, <buildcraftsilicon:redstone_chipset:4>]], 
-    30, <liquid:redstone> * 1000, <forestry:chipsets:3>.withTag({T: 3 as short}));
-
-mods.forestry.Carpenter.addRecipe(<refinedstorage:processor:3>, [
-	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>], 
-	[<projectred-core:resource_item:105>, <refinedstorage:processor>, <projectred-core:resource_item:105>], 
-	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>]], 
-    60, <liquid:gold> * 10, <contenttweaker:processor_housing>);
-
-mods.forestry.Carpenter.addRecipe(<refinedstorage:processor:4>, [
-	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>], 
-	[<projectred-core:resource_item:105>, <refinedstorage:processor:1>, <projectred-core:resource_item:105>], 
-	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>]], 
-    60, <liquid:gold> * 10, <contenttweaker:processor_housing>);
-
-mods.forestry.Carpenter.addRecipe(<refinedstorage:processor:5>, [
-	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>], 
-	[<projectred-core:resource_item:105>, <refinedstorage:processor:2>, <projectred-core:resource_item:105>], 
-	[<projectred-core:resource_item:105>, <projectred-core:resource_item:105>, <projectred-core:resource_item:105>]], 
-    60, <liquid:gold> * 10, <contenttweaker:processor_housing>);
-
-mods.forestry.Carpenter.addRecipe(<refinedstorage:core>, [
-	[<projectred-core:resource_item:342>, <projectred-core:resource_item:342>, <projectred-core:resource_item:342>], 
-	[<projectred-core:resource_item:342>, <refinedstorage:processor>, <projectred-core:resource_item:342>], 
-	[<projectred-core:resource_item:342>, <projectred-core:resource_item:342>, <projectred-core:resource_item:342>]], 
-    120, <liquid:gold> * 10, <contenttweaker:processor_housing>);
-mods.forestry.Carpenter.addRecipe(<refinedstorage:core:1>, [
-	[<projectred-core:resource_item:320>, <projectred-core:resource_item:320>, <projectred-core:resource_item:320>], 
-	[<projectred-core:resource_item:320>, <refinedstorage:processor>, <projectred-core:resource_item:320>], 
-	[<projectred-core:resource_item:320>, <projectred-core:resource_item:320>, <projectred-core:resource_item:320>]], 
-    120, <liquid:gold> * 10, <contenttweaker:processor_housing>);
