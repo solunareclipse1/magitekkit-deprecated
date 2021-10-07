@@ -106,7 +106,7 @@ SummoningDirector.addSummonInfo(
             .setOffset(0,1,0)
             .setSpread(5,1,5)
         )
-        .setWeight(5)
+        .setWeight(300)
 );
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
@@ -118,7 +118,7 @@ SummoningDirector.addSummonInfo(
             .setCount("10")
             .setSpread(5,1,5)
         )
-        .setWeight(1)
+        .setWeight(10)
 );
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
@@ -279,9 +279,6 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:3>);
 
 mods.tconstruct.Casting.addTableRecipe(<buildcraftcore:gear_stone>, <buildcraftcore:gear_wood>, <liquid:stone>, 288, true, 200);
 mods.tconstruct.Casting.addBasinRecipe(<extendedcrafting:storage:4>, <extendedcrafting:material:32>, <liquid:liquid_death>, 161616, true, 32320);
-
-//fuel
-mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 10, 1);
 
 ////galacticraft
 //circuit fabricator
